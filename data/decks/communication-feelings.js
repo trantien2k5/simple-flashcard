@@ -1,6 +1,7 @@
 /**
  * DECK: Giao tiếp & Cảm xúc
  * Giai đoạn 1 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const COMMUNICATION_FEELINGS_DECK = {
@@ -12,6 +13,13 @@ export const COMMUNICATION_FEELINGS_DECK = {
   "icon": "💬",
   "color": "#ec4899",
   "level": "A1 - B1",
+  "subcategories": [
+    "Cảm xúc tích cực",
+    "Cảm xúc tiêu cực",
+    "Giao tiếp cơ bản",
+    "Bày tỏ ý kiến",
+    "Lời chào & Phép lịch sự"
+  ],
   "targetCount": 300,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing pleasure or contentment.",
       "example": "I am really happy with my exam results.",
       "exampleVi": "Tôi thực sự rất vui với kết quả bài thi của mình.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-002",
@@ -34,7 +43,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing sorrow; unhappy.",
       "example": "Listening to sad songs makes her cry.",
       "exampleVi": "Nghe những bài hát buồn làm cô ấy bật khóc.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-003",
@@ -45,7 +55,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing strong annoyance, displeasure, or hostility.",
       "example": "He got angry when his flight was cancelled.",
       "exampleVi": "Anh ấy đã nổi giận khi chuyến bay bị hủy.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-004",
@@ -56,7 +67,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing surprise.",
       "example": "I was pleasantly surprised by the birthday party.",
       "exampleVi": "Tôi đã rất bất ngờ và vui thích vì bữa tiệc sinh nhật.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-005",
@@ -67,7 +79,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Very enthusiastic and eager.",
       "example": "The kids are excited about visiting the zoo tomorrow.",
       "exampleVi": "Lũ trẻ đang rất háo hức đi sở thú vào ngày mai.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-006",
@@ -78,7 +91,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Easily agitated or alarmed; anxious.",
       "example": "I always feel nervous before speaking in public.",
       "exampleVi": "Tôi luôn cảm thấy hồi hộp trước khi phát biểu trước đám đông.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-007",
@@ -89,7 +103,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Not showing or feeling nervousness, anger, or other strong emotions.",
       "example": "Stay calm and think of a practical solution.",
       "exampleVi": "Hãy giữ bình tĩnh và nghĩ ra một giải pháp thiết thực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-008",
@@ -100,7 +115,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Anxious or troubled about actual or potential problems.",
       "example": "Don't be worried; everything will turn out fine.",
       "exampleVi": "Đừng lo lắng; mọi chuyện rồi sẽ ổn thỏa thôi.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-009",
@@ -111,7 +127,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling deep satisfaction as a result of one's own achievements.",
       "example": "Her parents are extremely proud of her graduation.",
       "exampleVi": "Bố mẹ rất tự hào về lễ tốt nghiệp của cô ấy.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-010",
@@ -122,7 +139,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing an appreciation of kindness.",
       "example": "I am grateful for all the support you gave me.",
       "exampleVi": "Tôi rất biết ơn vì tất cả sự hỗ trợ bạn đã dành cho tôi.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cảm xúc tích cực"
     },
     {
       "id": "cf-011",
@@ -133,7 +151,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing envy of someone's achievements or advantages.",
       "example": "There is no reason to feel jealous of others.",
       "exampleVi": "Không có lý do gì để phải ghen tị với người khác.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-012",
@@ -144,7 +163,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling or showing certainty about something.",
       "example": "She sounded confident during the job interview.",
       "exampleVi": "Cô ấy nói chuyện rất tự tin trong buổi phỏng vấn xin việc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-013",
@@ -155,7 +175,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Feeling awkward, self-conscious, or ashamed.",
       "example": "He felt embarrassed when he forgot his friend's name.",
       "exampleVi": "Anh ấy cảm thấy ngượng ngùng khi quên tên bạn mình.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-014",
@@ -166,7 +187,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Sad or displeased because someone or something failed to fulfill expectations.",
       "example": "We were disappointed that the concert was delayed.",
       "exampleVi": "Chúng tôi đã thất vọng vì buổi hòa nhạc bị hoãn lại.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-015",
@@ -177,7 +199,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Eager to know or learn something.",
       "example": "Children are naturally curious about the world.",
       "exampleVi": "Trẻ em vốn có tính tò mò tự nhiên về thế giới.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-016",
@@ -188,7 +211,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To convey a thought or feeling in words or by gestures.",
       "example": "It is important to express your feelings openly.",
       "exampleVi": "Điều quan trọng là hãy cởi mở bày tỏ cảm xúc của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-017",
@@ -199,7 +223,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To make an idea or situation clear to someone by describing it.",
       "example": "Could you explain this rule one more time?",
       "exampleVi": "Bạn có thể giải thích lại quy tắc này một lần nữa không?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-018",
@@ -210,7 +235,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To talk about something with another person or group.",
       "example": "Let's discuss the project details in tomorrow's meeting.",
       "exampleVi": "Hãy thảo luận chi tiết dự án trong cuộc họp ngày mai nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-019",
@@ -221,7 +247,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To put forward for consideration.",
       "example": "I suggest we take a short break before continuing.",
       "exampleVi": "Tôi đề xuất chúng ta nghỉ giải lao ngắn trước khi tiếp tục.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-020",
@@ -232,7 +259,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To offer suggestions about the best course of action.",
       "example": "The doctor advised me to drink plenty of fluids.",
       "exampleVi": "Bác sĩ đã khuyên tôi nên uống nhiều nước.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cảm xúc tiêu cực"
     },
     {
       "id": "cf-021",
@@ -243,7 +271,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To have the same opinion about something.",
       "example": "I completely agree with your proposal.",
       "exampleVi": "Tôi hoàn toàn đồng ý với đề xuất của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-022",
@@ -254,7 +283,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To have or express a different opinion.",
       "example": "It is okay to disagree as long as you are respectful.",
       "exampleVi": "Bất đồng quan điểm là bình thường miễn là bạn tôn trọng đối phương.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-023",
@@ -265,7 +295,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To express dissatisfaction or annoyance about something.",
       "example": "Customers rarely complain if service is fast.",
       "exampleVi": "Khách hàng hiếm khi phàn nàn nếu dịch vụ nhanh chóng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-024",
@@ -276,7 +307,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To cause someone to believe or do something through reasoning.",
       "example": "She persuaded her brother to study abroad.",
       "exampleVi": "Cô ấy đã thuyết phục em trai mình đi du học.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-025",
@@ -287,7 +319,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To express regret for something that one has done wrong.",
       "example": "He apologized sincerely for being late.",
       "exampleVi": "Anh ấy đã chân thành xin lỗi vì đến muộn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-026",
@@ -298,7 +331,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To stop feeling angry or resentful toward someone for an offense.",
       "example": "It takes strength to forgive someone who hurt you.",
       "exampleVi": "Cần có bản lĩnh để tha thứ cho người đã làm tổn thương bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-027",
@@ -309,7 +343,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To give a polite word or sign of welcome upon meeting.",
       "example": "She greeted every guest with a warm handshake.",
       "exampleVi": "Cô ấy chào đón từng vị khách bằng một cái bắt tay ấm áp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-028",
@@ -320,7 +355,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To make someone known by name to another in person.",
       "example": "Allow me to introduce my colleague, Thomas.",
       "exampleVi": "Cho phép tôi giới thiệu đồng nghiệp của tôi, Thomas.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-029",
@@ -331,7 +367,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A talk, especially an informal one, between two or more people.",
       "example": "We had an inspiring conversation over coffee.",
       "exampleVi": "Chúng tôi đã có một cuộc trò chuyện đầy cảm hứng bên tách cà phê.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-030",
@@ -342,7 +379,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A formal discussion on a particular topic in a public meeting.",
       "example": "The students held a lively debate on climate change.",
       "exampleVi": "Các học sinh đã tổ chức một cuộc tranh luận sôi nổi về biến đổi khí hậu.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Giao tiếp cơ bản"
     },
     {
       "id": "cf-031",
@@ -353,7 +391,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A polite expression of praise or admiration.",
       "example": "She paid him a nice compliment on his presentation.",
       "exampleVi": "Cô ấy đã dành cho anh một lời khen ngợi đẹp về bài thuyết trình.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-032",
@@ -364,7 +403,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Something that is kept or meant to be kept unknown or unseen by others.",
       "example": "Can you keep a secret between just the two of us?",
       "exampleVi": "Bạn có thể giữ một bí mật chỉ giữa hai chúng ta không?",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-033",
@@ -375,7 +415,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A declaration or assurance that one will do a particular thing.",
       "example": "If you make a promise, be sure to keep it.",
       "exampleVi": "Nếu bạn đã hứa, hãy chắc chắn giữ lời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-034",
@@ -386,7 +427,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A currently circulating story of unverified truth.",
       "example": "Don't believe every rumor you hear online.",
       "exampleVi": "Đừng tin vào mọi tin đồn bạn nghe thấy trên mạng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-035",
@@ -397,7 +439,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "Complete absence of sound.",
       "example": "A sudden silence fell over the classroom.",
       "exampleVi": "Một sự im lặng bất ngờ bao trùm cả lớp học.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-036",
@@ -408,7 +451,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To utter a loud call or cry.",
       "example": "There's no need to shout; I can hear you clearly.",
       "exampleVi": "Không cần phải hét lên đâu; tôi nghe bạn rất rõ mà.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-037",
@@ -419,7 +463,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To speak very softly using one's breath rather than throat sound.",
       "example": "She whispered the secret into her friend's ear.",
       "exampleVi": "Cô ấy thì thầm bí mật vào tai người bạn của mình.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-038",
@@ -430,7 +475,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To give support, confidence, or hope to someone.",
       "example": "My teacher always encourages us to ask questions.",
       "exampleVi": "Thầy giáo luôn khuyến khích chúng tôi đặt câu hỏi.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-039",
@@ -441,7 +487,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To give assistance or comfort to someone.",
       "example": "Good teammates support each other under pressure.",
       "exampleVi": "Đồng đội tốt luôn hỗ trợ nhau dưới áp lực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-040",
@@ -452,7 +499,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To ease the grief or distress of someone.",
       "example": "She comforted her crying child with a warm hug.",
       "exampleVi": "Cô ấy an ủi đứa con đang khóc bằng một cái ôm ấm áp.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bày tỏ ý kiến"
     },
     {
       "id": "cf-041",
@@ -463,7 +511,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To acknowledge a significant happy day or event with a social gathering.",
       "example": "We are going out to celebrate our team's victory.",
       "exampleVi": "Chúng tôi đi ra ngoài để ăn mừng chiến thắng của cả đội.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-042",
@@ -474,7 +523,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To praise someone and express pleasure at that person's success.",
       "example": "I called to congratulate him on his promotion.",
       "exampleVi": "Tôi đã gọi điện để chúc mừng anh ấy được thăng chức.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-043",
@@ -485,7 +535,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "The conscious and unconscious movements and postures by which attitudes are communicated.",
       "example": "Confident body language leaves a positive impression.",
       "exampleVi": "Ngôn ngữ cơ thể tự tin để lại ấn tượng tích cực.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-044",
@@ -496,7 +547,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "The feelings expressed on a person's face.",
       "example": "His facial expression showed that he was thrilled.",
       "exampleVi": "Nét mặt của anh ấy cho thấy anh đang vô cùng hào hứng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-045",
@@ -507,7 +559,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "The pitch and timbre of a person's voice expressing mood.",
       "example": "A calm tone of voice de-escalates conflicts.",
       "exampleVi": "Giọng điệu bình tĩnh giúp xoa dịu các xung đột.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-046",
@@ -518,7 +571,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A natural instinctive state of mind deriving from circumstances.",
       "example": "Music has the power to evoke deep emotions.",
       "exampleVi": "Âm nhạc có sức mạnh gợi lên những cảm xúc sâu lắng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-047",
@@ -529,7 +583,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A temporary state of mind or feeling.",
       "example": "A brisk morning walk always puts me in a great mood.",
       "exampleVi": "Đi bộ nhanh vào buổi sáng luôn giúp tôi có tâm trạng tuyệt vời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-048",
@@ -540,7 +595,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A failure to understand something correctly.",
       "example": "Clear communication prevents unnecessary misunderstandings.",
       "exampleVi": "Giao tiếp rõ ràng giúp ngăn chặn những hiểu lầm không đáng có.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-049",
@@ -551,7 +607,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "A sincere personal view on a topic.",
       "example": "Give me your honest opinion about this design.",
       "exampleVi": "Hãy cho tôi ý kiến chân thật của bạn về thiết kế này.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     },
     {
       "id": "cf-050",
@@ -562,7 +619,8 @@ export const COMMUNICATION_FEELINGS_DECK = {
       "definition": "To maintain regular contact with someone.",
       "example": "Even after moving to a new city, we stayed in touch.",
       "exampleVi": "Dù chuyển sang thành phố mới, chúng tôi vẫn giữ liên lạc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Lời chào & Phép lịch sự"
     }
   ]
 };

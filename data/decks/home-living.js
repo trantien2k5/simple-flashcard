@@ -1,6 +1,7 @@
 /**
  * DECK: Nhà cửa & Không gian sống
  * Giai đoạn 1 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const HOME_LIVING_DECK = {
@@ -12,6 +13,13 @@ export const HOME_LIVING_DECK = {
   "icon": "🏡",
   "color": "#10b981",
   "level": "A1 - B1",
+  "subcategories": [
+    "Các phòng trong nhà",
+    "Đồ nội thất",
+    "Thiết bị gia dụng",
+    "Đồ dùng sinh hoạt",
+    "Xung quanh nhà"
+  ],
   "targetCount": 200,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A suite of rooms forming one separate residence.",
       "example": "They rented a bright apartment in the city center.",
       "exampleVi": "Họ đã thuê một căn hộ ngập tràn ánh sáng ở trung tâm thành phố.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-002",
@@ -34,7 +43,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A building for human habitation.",
       "example": "They bought a two-story house with a backyard.",
       "exampleVi": "Họ đã mua một ngôi nhà hai tầng có sân sau.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-003",
@@ -45,7 +55,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A structure with a roof and walls.",
       "example": "That tall building has fifty floors.",
       "exampleVi": "Tòa nhà cao tầng đó có năm mươi tầng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-004",
@@ -56,7 +67,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A district, especially one forming a community within a town or city.",
       "example": "It is a peaceful and safe neighborhood to raise kids.",
       "exampleVi": "Đó là một khu dân cư yên bình và an toàn để nuôi dạy con nhỏ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-005",
@@ -67,7 +79,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A room in a house for general and everyday use.",
       "example": "The whole family gathers in the living room after dinner.",
       "exampleVi": "Cả gia đình quây quần ở phòng khách sau bữa tối.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-006",
@@ -78,7 +91,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A room used for sleeping in.",
       "example": "My bedroom has a large window facing the garden.",
       "exampleVi": "Phòng ngủ của tôi có một cửa sổ lớn hướng ra vườn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-007",
@@ -89,7 +103,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A room containing a bath or shower and typically also a washbasin and toilet.",
       "example": "The master bedroom has an attached bathroom.",
       "exampleVi": "Phòng ngủ chính có phòng tắm khép kín.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-008",
@@ -100,7 +115,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A room or area where food is prepared and cooked.",
       "example": "The kitchen is equipped with modern cooking appliances.",
       "exampleVi": "Nhà bếp được trang bị các thiết bị nấu nướng hiện đại.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-009",
@@ -111,7 +127,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A room in a house in which meals are eaten.",
       "example": "The dining room table seats eight people.",
       "exampleVi": "Bàn phòng ăn có thể ngồi được tám người.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-010",
@@ -122,7 +139,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A platform projecting from the wall of a building.",
       "example": "I like to sip morning coffee out on the balcony.",
       "exampleVi": "Tôi thích nhâm nhi cà phê sáng ngoài ban công.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Các phòng trong nhà"
     },
     {
       "id": "hl-011",
@@ -133,7 +151,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A piece of ground adjoining a house, used for growing flowers, fruit, or vegetables.",
       "example": "She planted colorful roses in the front garden.",
       "exampleVi": "Cô ấy đã trồng những bông hồng rực rỡ ở vườn trước.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-012",
@@ -144,7 +163,8 @@ export const HOME_LIVING_DECK = {
       "definition": "The structure forming the upper covering of a building.",
       "example": "Solar panels were installed on the roof.",
       "exampleVi": "Các tấm pin mặt trời đã được lắp trên mái nhà.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-013",
@@ -155,7 +175,8 @@ export const HOME_LIVING_DECK = {
       "definition": "The upper interior surface of a room.",
       "example": "The apartment has high ceilings that make rooms feel bigger.",
       "exampleVi": "Căn hộ có trần cao giúp các phòng có cảm giác rộng hơn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-014",
@@ -166,7 +187,8 @@ export const HOME_LIVING_DECK = {
       "definition": "The lower surface of a room, on which one may walk.",
       "example": "The wooden floor is polished and clean.",
       "exampleVi": "Sàn gỗ đã được đánh bóng và sạch sẽ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-015",
@@ -177,7 +199,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A continuous vertical brick or stone structure that encloses or divides an area.",
       "example": "They hung family photos on the living room wall.",
       "exampleVi": "Họ đã treo những bức ảnh gia đình lên tường phòng khách.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-016",
@@ -188,7 +211,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle.",
       "example": "Please knock on the door before coming in.",
       "exampleVi": "Làm ơn gõ cửa trước khi bước vào.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-017",
@@ -199,7 +223,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An opening in a wall that fitted with glass in a frame to admit light or air.",
       "example": "Open the window to let fresh air circulate.",
       "exampleVi": "Mở cửa sổ để không khí trong lành lưu thông.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-018",
@@ -210,7 +235,8 @@ export const HOME_LIVING_DECK = {
       "definition": "Large movable equipment such as tables, chairs, or beds used to make a room suitable for living.",
       "example": "We bought minimalist wooden furniture for the new house.",
       "exampleVi": "Chúng tôi đã mua đồ nội thất gỗ tối giản cho ngôi nhà mới.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-019",
@@ -221,7 +247,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A long upholstered seat with a back and arms, for two or more people.",
       "example": "The plush sofa is very comfy to lie on.",
       "exampleVi": "Chiếc ghế sô-pha êm ái rất dễ chịu khi nằm lên.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-020",
@@ -232,7 +259,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A comfortable chair with sides that support your arms.",
       "example": "Grandpa loves reading newspapers in his leather armchair.",
       "exampleVi": "Ông thích đọc báo trên chiếc ghế bành da của mình.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ nội thất"
     },
     {
       "id": "hl-021",
@@ -243,7 +271,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A piece of furniture with a flat top and one or more legs.",
       "example": "Place the fruit bowl on the center of the table.",
       "exampleVi": "Đặt đĩa hoa quả vào chính giữa bàn nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-022",
@@ -254,7 +283,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A separate seat for one person, typically with a back and four legs.",
       "example": "Pull up a chair and join our conversation.",
       "exampleVi": "Kéo ghế lại và tham gia trò chuyện cùng chúng tôi đi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-023",
@@ -265,7 +295,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A piece of furniture with a flat or sloped surface and typically with drawers, at which one can read, write, or do other work.",
       "example": "Keep your study desk organized and free of mess.",
       "exampleVi": "Hãy giữ bàn học của bạn gọn gàng và không bừa bộn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-024",
@@ -276,7 +307,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A piece of furniture for sleep or rest.",
       "example": "A good bed gives you a sound night's sleep.",
       "exampleVi": "Một chiếc giường tốt đem lại cho bạn giấc ngủ ngon.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-025",
@@ -287,7 +319,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A fabric case filled with resilient material used for sleeping on.",
       "example": "This orthopedic mattress provides excellent back support.",
       "exampleVi": "Chiếc nệm này nâng đỡ lưng rất tuyệt vời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-026",
@@ -298,7 +331,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A rectangular cloth bag filled with soft material used to support the head.",
       "example": "Fluff your pillow before resting your head.",
       "exampleVi": "Vỗ phồng gối trước khi gối đầu nghỉ ngơi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-027",
@@ -309,7 +343,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A large piece of woolen or other material used as a warm covering on a bed.",
       "example": "Pull up the thick blanket when the air gets chilly.",
       "exampleVi": "Kéo tấm chăn dày lên đắp khi trời trở lạnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-028",
@@ -320,7 +355,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A large, tall cupboard in which clothes may be hung or stored.",
       "example": "Hang your shirts neatly inside the wardrobe.",
       "exampleVi": "Treo áo sơ mi gọn gàng bên trong tủ quần áo.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-029",
@@ -331,7 +367,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A box-like storage compartment without a lid that slides horizontally in and out of a piece of furniture.",
       "example": "Store your passports in the top desk drawer.",
       "exampleVi": "Cất hộ chiếu của bạn vào ngăn kéo bàn trên cùng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-030",
@@ -342,7 +379,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A flat length of wood or other rigid material attached to a wall or forming part of a piece of furniture.",
       "example": "The wooden shelves are filled with English novels.",
       "exampleVi": "Các kệ gỗ chứa đầy những cuốn tiểu thuyết tiếng Anh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị gia dụng"
     },
     {
       "id": "hl-031",
@@ -353,7 +391,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A device for giving light, especially one that has a bulb and a shade and is powered by electricity.",
       "example": "Turn on the reading lamp to protect your eyesight.",
       "exampleVi": "Bật đèn đọc sách lên để bảo vệ thị lực của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-032",
@@ -364,7 +403,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A machine that cools and dries air inside a room or building.",
       "example": "Set the air conditioner to twenty-six degrees Celsius.",
       "exampleVi": "Hãy cài điều hòa ở mức 26 độ C.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-033",
@@ -375,7 +415,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An apparatus for heating a room.",
       "example": "We turned on the electric heater during cold winter nights.",
       "exampleVi": "Chúng tôi đã bật máy sưởi điện trong những đêm đông lạnh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-034",
@@ -386,7 +427,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An apparatus with rotating blades that creates a current of air for cooling.",
       "example": "A ceiling fan helps keep the room ventilated.",
       "exampleVi": "Quạt trần giúp giữ cho căn phòng được thông thoáng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-035",
@@ -397,7 +439,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An appliance in which food and drinks are kept cool.",
       "example": "Store perishable foods inside the refrigerator.",
       "exampleVi": "Cất thực phẩm dễ hỏng bên trong tủ lạnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-036",
@@ -408,7 +451,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An enclosed compartment used for baking or roasting food.",
       "example": "Preheat the oven to 180 degrees before baking.",
       "exampleVi": "Làm nóng lò nướng trước ở mức 180 độ trước khi nướng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-037",
@@ -419,7 +463,8 @@ export const HOME_LIVING_DECK = {
       "definition": "An oven that uses microwaves to cook or heat food quickly.",
       "example": "Warm up your soup in the microwave for two minutes.",
       "exampleVi": "Hâm nóng món súp của bạn trong lò vi sóng hai phút.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-038",
@@ -430,7 +475,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A fixed basin with a water supply and a drain.",
       "example": "Don't leave dirty dishes piled up in the sink.",
       "exampleVi": "Đừng để bát đĩa bẩn chất đống trong bồn rửa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-039",
@@ -441,7 +487,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A device by which a flow of liquid or gas from a pipe or container can be controlled; a tap.",
       "example": "Turn off the faucet tightly to save water.",
       "exampleVi": "Vặn chặt vòi nước để tiết kiệm nước nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-040",
@@ -452,7 +499,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A piece of material suspended at the top to form a screen, typically movable across a window.",
       "example": "Draw the curtains to keep the bright morning sunlight out.",
       "exampleVi": "Kéo rèm cửa lại để che ánh nắng chói chang buổi sáng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ dùng sinh hoạt"
     },
     {
       "id": "hl-041",
@@ -463,7 +511,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A floor covering made from thick woven fabric.",
       "example": "The soft wool carpet feels warm under your feet.",
       "exampleVi": "Tấm thảm len mềm mại cho cảm giác ấm áp dưới chân.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-042",
@@ -474,7 +523,8 @@ export const HOME_LIVING_DECK = {
       "definition": "Free from dirt, marks, or stains.",
       "example": "Keep your living space neat and clean.",
       "exampleVi": "Hãy giữ không gian sống của bạn ngăn nắp và sạch sẽ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-043",
@@ -485,7 +535,8 @@ export const HOME_LIVING_DECK = {
       "definition": "Giving a feeling of comfort, warmth, and relaxation.",
       "example": "The cottage has a cozy fireplace in the living room.",
       "exampleVi": "Ngôi nhà nhỏ có một lò sưởi ấm cúng trong phòng khách.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-044",
@@ -496,7 +547,8 @@ export const HOME_LIVING_DECK = {
       "definition": "Having ample space; roomy.",
       "example": "The master bedroom is bright and spacious.",
       "exampleVi": "Phòng ngủ chính rất sáng sủa và rộng rãi.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-045",
@@ -507,7 +559,8 @@ export const HOME_LIVING_DECK = {
       "definition": "Making little or no noise.",
       "example": "I love living in a quiet suburban area.",
       "exampleVi": "Tôi thích sống ở một khu vực ngoại ô yên tĩnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-046",
@@ -518,7 +571,8 @@ export const HOME_LIVING_DECK = {
       "definition": "To pay someone for the use of something, typically property, land, or a car.",
       "example": "They rent a two-bedroom apartment near work.",
       "exampleVi": "Họ thuê một căn hộ hai phòng ngủ gần nơi làm việc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-047",
@@ -529,7 +583,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A person who leases land or property to a tenant.",
       "example": "The landlord promptly fixed the broken heater.",
       "exampleVi": "Chủ nhà đã nhanh chóng sửa chiếc máy sưởi bị hỏng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-048",
@@ -540,7 +595,8 @@ export const HOME_LIVING_DECK = {
       "definition": "A person who occupies land or property rented from a landlord.",
       "example": "The new tenants moved in over the weekend.",
       "exampleVi": "Những người thuê nhà mới đã chuyển vào vào dịp cuối tuần.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-049",
@@ -551,7 +607,8 @@ export const HOME_LIVING_DECK = {
       "definition": "To make something look more attractive by adding extra items to it.",
       "example": "We decorated the living room for Christmas.",
       "exampleVi": "Chúng tôi đã trang trí phòng khách cho dịp Giáng sinh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Xung quanh nhà"
     },
     {
       "id": "hl-050",
@@ -562,7 +619,8 @@ export const HOME_LIVING_DECK = {
       "definition": "To restore something old or in poor condition to a good state of repair.",
       "example": "They spent the summer renovating their old kitchen.",
       "exampleVi": "Họ đã dành mùa hè để cải tạo lại căn bếp cũ của mình.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Xung quanh nhà"
     }
   ]
 };

@@ -1,6 +1,7 @@
 /**
  * DECK: Thiên nhiên & Thời tiết
  * Giai đoạn 3 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const NATURE_WEATHER_DECK = {
@@ -12,6 +13,13 @@ export const NATURE_WEATHER_DECK = {
   "icon": "🌦️",
   "color": "#eab308",
   "level": "A1 - B1",
+  "subcategories": [
+    "Thời tiết & Khí hậu",
+    "Bốn mùa",
+    "Hiện tượng tự nhiên",
+    "Cảnh quan & Địa hình",
+    "Động thực vật & Môi trường"
+  ],
   "targetCount": 200,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The phenomena of the physical world collectively, including plants, animals, the landscape, and other features.",
       "example": "Spending time in nature reduces stress and anxiety.",
       "exampleVi": "Dành thời gian hòa mình vào thiên nhiên giúp giảm căng thẳng và lo âu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-002",
@@ -34,7 +43,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
       "example": "We must protect the natural environment for future generations.",
       "exampleVi": "Chúng ta phải bảo vệ môi trường tự nhiên cho các thế hệ tương lai.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-003",
@@ -45,7 +55,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The weather conditions prevailing in an area in general or over a long period.",
       "example": "Vietnam has a warm, tropical monsoon climate.",
       "exampleVi": "Việt Nam có khí hậu nhiệt đới gió mùa ấm áp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-004",
@@ -56,7 +67,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.",
       "example": "The weather is lovely and clear today.",
       "exampleVi": "Hôm nay thời tiết rất đẹp và quang đãng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-005",
@@ -67,7 +79,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A calculation or estimate of future events, especially coming weather.",
       "example": "The weather forecast predicts light rain tomorrow afternoon.",
       "exampleVi": "Dự báo thời tiết cho biết sẽ có mưa nhỏ vào chiều mai.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-006",
@@ -78,7 +91,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The degree or intensity of heat present in a substance or object.",
       "example": "The temperature dropped to fifteen degrees last night.",
       "exampleVi": "Nhiệt độ đã giảm xuống mười lăm độ vào đêm qua.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-007",
@@ -89,7 +103,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Each of the four divisions of the year marked by particular weather patterns.",
       "example": "Autumn is my favorite season because of the cool breeze.",
       "exampleVi": "Mùa thu là mùa yêu thích nhất của tôi vì có những làn gió mát rượi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-008",
@@ -100,7 +115,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The season after winter and before summer, in which vegetation begins to appear.",
       "example": "Flowers bloom beautifully throughout spring.",
       "exampleVi": "Hoa nở rực rỡ suốt mùa xuân.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-009",
@@ -111,7 +127,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The warmest season of the year, between spring and autumn.",
       "example": "Children look forward to swimming in the summer.",
       "exampleVi": "Trẻ nhỏ rất mong chờ được đi bơi vào mùa hè.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-010",
@@ -122,7 +139,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The season after summer and before winter to which leaves turn yellow and fall.",
       "example": "Golden leaves cover the ground in autumn.",
       "exampleVi": "Lá vàng phủ kín mặt đất vào mùa thu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thời tiết & Khí hậu"
     },
     {
       "id": "nw-011",
@@ -133,7 +151,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The coldest season of the year, between autumn and spring.",
       "example": "Wear warm woolen gloves during the cold winter.",
       "exampleVi": "Đeo găng tay len ấm trong mùa đông lạnh giá.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-012",
@@ -144,7 +163,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Bright with sunlight.",
       "example": "It is a bright and sunny morning.",
       "exampleVi": "Đó là một buổi sáng tươi sáng và ngập tràn ánh nắng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-013",
@@ -155,7 +175,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Covered with or characterized by clouds.",
       "example": "The sky grew cloudy before the afternoon thunderstorm.",
       "exampleVi": "Bầu trời trở nên nhiều mây trước cơn dông chiều.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-014",
@@ -166,7 +187,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Having a great deal of rain.",
       "example": "Remember to take an umbrella on rainy days.",
       "exampleVi": "Hãy nhớ mang theo ô vào những ngày mưa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-015",
@@ -177,7 +199,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Characterized by violent weather with much rain, wind, or snow.",
       "example": "The stormy weather made driving dangerous.",
       "exampleVi": "Thời tiết bão gió khiến việc lái xe trở nên nguy hiểm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-016",
@@ -188,7 +211,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Marked by or exposed to strong winds.",
       "example": "It was too windy to fly kites in the park.",
       "exampleVi": "Trời quá nhiều gió để có thể thả diều trong công viên.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-017",
@@ -199,7 +223,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Full of or accompanied by fog.",
       "example": "Drive slowly along foggy mountain roads.",
       "exampleVi": "Lái xe chậm rãi dọc theo những con đường núi nhiều sương mù.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-018",
@@ -210,7 +235,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Having a high degree of heat or a high temperature.",
       "example": "Drink plenty of cool water on hot days.",
       "exampleVi": "Uống nhiều nước mát vào những ngày nắng nóng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-019",
@@ -221,7 +247,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Of or at a fairly or comfortably high temperature.",
       "example": "The warm afternoon sun felt wonderful.",
       "exampleVi": "Ánh nắng chiều ấm áp cho cảm giác thật dễ chịu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-020",
@@ -232,7 +259,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Of or at a fairly low temperature.",
       "example": "A cool breeze swept across the lake.",
       "exampleVi": "Một làn gió mát rượi thổi qua mặt hồ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bốn mùa"
     },
     {
       "id": "nw-021",
@@ -243,7 +271,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Of or at a low or relatively low temperature.",
       "example": "Put on your heavy coat; it's freezing cold outside.",
       "exampleVi": "Mặc áo khoác dày vào; ngoài trời lạnh cóng đấy.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-022",
@@ -254,7 +283,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Marked by a relatively high level of water vapor in the atmosphere.",
       "example": "Tropical summers can be uncomfortably hot and humid.",
       "exampleVi": "Mùa hè nhiệt đới có thể rất nóng và nồm ẩm khó chịu.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-023",
@@ -265,7 +295,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Free from moisture or liquid; not wet or moist.",
       "example": "The dry season lasts from December to April.",
       "exampleVi": "Mùa khô kéo dài từ tháng Mười Hai đến tháng Tư.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-024",
@@ -276,7 +307,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Moisture condensed from the atmosphere that falls visibly in separate drops.",
       "example": "The sound of gentle rain on the roof is calming.",
       "exampleVi": "Âm thanh của cơn mưa nhẹ rơi trên mái nhà thật êm đềm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-025",
@@ -287,7 +319,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A brief and usually light fall of rain.",
       "example": "A sudden afternoon shower cooled down the city.",
       "exampleVi": "Một cơn mưa rào chiều bất chợt đã làm dịu mát cả thành phố.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-026",
@@ -298,7 +331,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A storm with thunder and lightning and typically also heavy rain or hail.",
       "example": "Stay indoors away from windows during a thunderstorm.",
       "exampleVi": "Hãy ở trong nhà cách xa cửa sổ khi có cơn dông sấm sét.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-027",
@@ -309,7 +343,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The occurrence of a natural electrical discharge of very short duration in the atmosphere.",
       "example": "A flash of lightning illuminated the dark sky.",
       "exampleVi": "Một tia chớp lóe lên đã soi sáng bầu trời đêm đen.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-028",
@@ -320,7 +355,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "An arch of colors formed in the sky in certain circumstances, caused by the refraction and dispersion of the sun's light by water droplets.",
       "example": "A vibrant rainbow appeared after the storm passed.",
       "exampleVi": "Một chiếc cầu vồng rực rỡ đã xuất hiện sau khi cơn bão đi qua.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-029",
@@ -331,7 +367,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Atmospheric water vapor frozen into ice crystals and falling in light white flakes.",
       "example": "Children played happily in the fresh white snow.",
       "exampleVi": "Lũ trẻ vui đùa vui vẻ trên nền tuyết trắng tinh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-030",
@@ -342,7 +379,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "Frozen water, a brittle transparent crystalline solid.",
       "example": "Be careful of slippery ice on the sidewalk.",
       "exampleVi": "Hãy cẩn thận với lớp băng trơn trượt trên vỉa hè.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hiện tượng tự nhiên"
     },
     {
       "id": "nw-031",
@@ -353,7 +391,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The star round which the earth orbits.",
       "example": "The sun rises in the east and sets in the west.",
       "exampleVi": "Mặt trời mọc ở hướng đông và lặn ở hướng tây.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-032",
@@ -364,7 +403,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The natural satellite of the earth, visible by reflected light from the sun.",
       "example": "The full moon shines brightly in the clear night sky.",
       "exampleVi": "Mặt trăng tròn tỏa sáng rực rỡ trên bầu trời đêm quang đãng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-033",
@@ -375,7 +415,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A fixed luminous point in the night sky.",
       "example": "Thousands of stars were visible in the countryside.",
       "exampleVi": "Hàng ngàn ngôi sao có thể nhìn thấy rõ ở vùng quê.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-034",
@@ -386,7 +427,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The region of the atmosphere and outer space seen from the earth.",
       "example": "The blue sky was dotted with fluffy white clouds.",
       "exampleVi": "Bầu trời trong xanh điểm xuyết những đám mây trắng bồng bềnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-035",
@@ -397,7 +439,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A visible mass of condensed water vapor floating in the atmosphere.",
       "example": "Dark clouds gathered before the heavy downpour.",
       "exampleVi": "Những đám mây đen kéo đến trước cơn mưa như trút nước.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-036",
@@ -408,7 +451,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The perceptible natural movement of the air.",
       "example": "The gentle wind rustled the leaves on the trees.",
       "exampleVi": "Cơn gió nhẹ làm xào xạc những chiếc lá trên cây.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-037",
@@ -419,7 +463,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A very large expanse of sea, in particular each of the main areas into which the sea is divided geographically.",
       "example": "The Pacific Ocean is the largest body of water on Earth.",
       "exampleVi": "Thái Bình Dương là vùng nước lớn nhất trên Trái Đất.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-038",
@@ -430,7 +475,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The expanse of salt water that covers most of the earth's surface and surrounds its land masses.",
       "example": "We swam in the warm blue sea every afternoon.",
       "exampleVi": "Chúng tôi đã bơi dưới làn nước biển xanh ấm áp mỗi buổi chiều.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-039",
@@ -441,7 +487,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A large natural stream of water flowing in a channel to the sea, a lake, or another such stream.",
       "example": "The ancient city was founded on the banks of a river.",
       "exampleVi": "Thành phố cổ kính được xây dựng bên bờ một dòng sông.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-040",
@@ -452,7 +499,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A large body of water surrounded by land.",
       "example": "We enjoyed a peaceful stroll around West Lake.",
       "exampleVi": "Chúng tôi đã tận hưởng chuyến đi dạo êm đềm quanh Hồ Tây.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cảnh quan & Địa hình"
     },
     {
       "id": "nw-041",
@@ -463,7 +511,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A large natural elevation of the earth's surface.",
       "example": "The majestic mountain peak was shrouded in mist.",
       "exampleVi": "Đỉnh núi hùng vĩ được bao phủ trong làn sương mờ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-042",
@@ -474,7 +523,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A naturally raised area of land, not as high or craggy as a mountain.",
       "example": "The house sits on top of a green grassy hill.",
       "exampleVi": "Ngôi nhà nằm trên đỉnh một ngọn đồi cỏ xanh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-043",
@@ -485,7 +535,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A large area covered chiefly with trees and undergrowth.",
       "example": "The tropical forest is home to diverse wildlife species.",
       "exampleVi": "Khu rừng nhiệt đới là nơi sinh sống của các loài động vật hoang dã đa dạng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-044",
@@ -496,7 +547,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A woody perennial plant, typically having a single stem or trunk growing to a considerable height.",
       "example": "Planting trees helps fight climate change.",
       "exampleVi": "Trồng cây xanh giúp chống lại biến đổi khí hậu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-045",
@@ -507,7 +559,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses.",
       "example": "Water your indoor houseplants twice a week.",
       "exampleVi": "Tưới cây cảnh trong nhà hai lần một tuần.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-046",
@@ -518,7 +571,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The seed-bearing part of a plant, consisting of reproductive organs typically surrounded by a brightly colored corolla.",
       "example": "The garden is fragrant with blooming jasmine flowers.",
       "exampleVi": "Khu vườn thơm ngát mùi hoa nhài đang nở rộ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-047",
@@ -529,7 +583,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "A living organism that feeds on organic matter, typically having specialized sense organs and nervous system.",
       "example": "Be kind and respectful to all animals.",
       "exampleVi": "Hãy tử tế và tôn trọng tất cả các loài động vật.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-048",
@@ -540,7 +595,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The time in the morning when the sun appears or full daylight arrives.",
       "example": "We woke up at dawn to watch the magnificent sunrise.",
       "exampleVi": "Chúng tôi đã dậy từ lúc rạng đông để ngắm bình minh tuyệt mỹ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-049",
@@ -551,7 +607,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The time in the evening when the sun disappears or daylight fades.",
       "example": "Watching the sunset over the sea is pure bliss.",
       "exampleVi": "Ngắm hoàng hôn buông xuống biển là một niềm hạnh phúc thuần khiết.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Động thực vật & Môi trường"
     },
     {
       "id": "nw-050",
@@ -562,7 +619,8 @@ export const NATURE_WEATHER_DECK = {
       "definition": "The presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.",
       "example": "Planting green spaces in cities helps reduce air pollution.",
       "exampleVi": "Trồng các mảng xanh trong đô thị giúp giảm bớt ô nhiễm không khí.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Động thực vật & Môi trường"
     }
   ]
 };

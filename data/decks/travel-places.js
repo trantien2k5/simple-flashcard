@@ -1,6 +1,7 @@
 /**
  * DECK: Du lịch & Địa điểm
  * Giai đoạn 2 (A2 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const TRAVEL_PLACES_DECK = {
@@ -12,6 +13,13 @@ export const TRAVEL_PLACES_DECK = {
   "icon": "✈️",
   "color": "#14b8a6",
   "level": "A2 - B1",
+  "subcategories": [
+    "Điểm đến & Du lịch",
+    "Chỗ ở & Khách sạn",
+    "Địa lý & Danh lam",
+    "Tham quan khám phá",
+    "Hành lý & Chuẩn bị"
+  ],
   "targetCount": 250,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To make a journey, typically of some length or abroad.",
       "example": "I love to travel and experience diverse cultures.",
       "exampleVi": "Tôi thích đi du lịch và trải nghiệm các nền văn hóa đa dạng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-002",
@@ -34,7 +43,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A journey or excursion, especially for pleasure.",
       "example": "We took a three-day weekend trip to the mountains.",
       "exampleVi": "Chúng tôi đã có một chuyến đi ba ngày cuối tuần lên vùng núi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-003",
@@ -45,7 +55,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An act of traveling from one place to another.",
       "example": "The scenic train journey through the Alps was unforgettable.",
       "exampleVi": "Hành trình tàu hỏa tuyệt đẹp qua dãy Alps thật khó quên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-004",
@@ -56,7 +67,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An extended period of recreation, especially one spent away from home or in traveling.",
       "example": "Where are you going for your summer vacation?",
       "exampleVi": "Bạn định đi đâu trong kỳ nghỉ hè năm nay?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-005",
@@ -67,7 +79,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A person who is traveling or visiting a place for pleasure.",
       "example": "Millions of tourists visit the ancient temples every year.",
       "exampleVi": "Hàng triệu khách du lịch ghé thăm các ngôi đền cổ mỗi năm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-006",
@@ -78,7 +91,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Suitcases or other bags in which to pack personal belongings for traveling.",
       "example": "Do not leave your luggage unattended at the terminal.",
       "exampleVi": "Không để hành lý của bạn không có người trông coi tại nhà ga.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-007",
@@ -89,7 +103,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A brief, rectangular case used for carrying clothes and personal items when traveling.",
       "example": "Pack your heaviest items at the bottom of the suitcase.",
       "exampleVi": "Xếp những đồ nặng nhất ở đáy vali.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-008",
@@ -100,7 +115,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A bag with shoulder straps that allow it to be carried on one's back.",
       "example": "He traveled across Southeast Asia with just a backpack.",
       "exampleVi": "Anh ấy đã du lịch khắp Đông Nam Á chỉ với một chiếc balo.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-009",
@@ -111,7 +127,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An official document issued by a government certifying the holder's identity and citizenship.",
       "example": "Keep your passport in a safe and secure pocket.",
       "exampleVi": "Giữ hộ chiếu của bạn trong một chiếc túi an toàn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-010",
@@ -122,7 +139,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An endorsement on a passport indicating that the holder is allowed to enter a country.",
       "example": "Apply for a tourist visa well in advance.",
       "exampleVi": "Hãy nộp hồ sơ xin visa du lịch từ sớm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Điểm đến & Du lịch"
     },
     {
       "id": "tp-011",
@@ -133,7 +151,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A pass that authorizes a passenger to board an aircraft.",
       "example": "Have your boarding pass and passport ready at the gate.",
       "exampleVi": "Chuẩn bị sẵn thẻ lên máy bay và hộ chiếu tại cửa lên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-012",
@@ -144,7 +163,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A journey in an aircraft.",
       "example": "Our direct flight to Tokyo took six hours.",
       "exampleVi": "Chuyến bay thẳng của chúng tôi tới Tokyo mất sáu tiếng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-013",
@@ -155,7 +175,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The act of reporting one's presence and registering.",
       "example": "Hotel check-in begins at 2:00 PM.",
       "exampleVi": "Thủ tục nhận phòng khách sạn bắt đầu từ 2 giờ chiều.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-014",
@@ -166,7 +187,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The place at a port, airport, or frontier where officials check incoming goods, travelers, or luggage.",
       "example": "Pass through customs smoothly after declaring your goods.",
       "exampleVi": "Đi qua cửa khẩu hải quan thuận lợi sau khi khai báo hàng hóa.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-015",
@@ -177,7 +199,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An establishment providing accommodation, meals, and other services for travelers.",
       "example": "We booked a boutique hotel overlooking the bay.",
       "exampleVi": "Chúng tôi đã đặt một khách sạn nhỏ nhìn ra vịnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-016",
@@ -188,7 +211,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A place that is a popular destination for vacations or recreation.",
       "example": "The beachfront resort has three infinity pools.",
       "exampleVi": "Khu nghỉ dưỡng ven biển có ba hồ bơi vô cực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-017",
@@ -199,7 +223,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The area in a hotel where guests are received and registered.",
       "example": "Leave your room key at reception when heading out.",
       "exampleVi": "Gửi lại chìa khóa phòng ở quầy lễ tân khi đi ra ngoài nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-018",
@@ -210,7 +235,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An arrangement to secure accommodations or seats in advance.",
       "example": "I have a reservation under the name of Nguyen.",
       "exampleVi": "Tôi có một lượt đặt phòng dưới tên Nguyen.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-019",
@@ -221,7 +247,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To reserve accommodation, a place, or a ticket.",
       "example": "Book flight tickets early to secure the best discounts.",
       "exampleVi": "Đặt vé máy bay sớm để giữ mức giá ưu đãi tốt nhất.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-020",
@@ -232,7 +259,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A planned route or journey schedule.",
       "example": "Our travel itinerary includes four major historic cities.",
       "exampleVi": "Lịch trình du lịch của chúng tôi bao gồm bốn thành phố lịch sử lớn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Chỗ ở & Khách sạn"
     },
     {
       "id": "tp-021",
@@ -243,7 +271,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A person who shows the way to others, especially one employed to show tourists around.",
       "example": "Our local guide shared fascinating historical stories.",
       "exampleVi": "Hướng dẫn viên địa phương đã chia sẻ những câu chuyện lịch sử lôi cuốn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-022",
@@ -254,7 +283,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The activity of visiting places of interest in a particular location.",
       "example": "We spent the whole morning sightseeing around the old quarter.",
       "exampleVi": "Chúng tôi đã dành cả buổi sáng đi tham quan quanh khu phố cổ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-023",
@@ -265,7 +295,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To travel in or through an unfamiliar area in order to learn about it.",
       "example": "Rent a scooter to explore the hidden beaches on the island.",
       "exampleVi": "Thuê một chiếc xe tay ga để khám phá những bãi biển ẩn mình trên đảo.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-024",
@@ -276,7 +307,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An object or feature of a landscape or town that is easily seen and recognized from a distance.",
       "example": "The Eiffel Tower is the most recognizable landmark in Paris.",
       "exampleVi": "Tháp Eiffel là biểu tượng dễ nhận biết nhất ở Paris.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-025",
@@ -287,7 +319,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A place of interest that tourists visit.",
       "example": "The ancient citadel is a top cultural attraction.",
       "exampleVi": "Hoàng thành cổ kính là một điểm thu hút văn hóa hàng đầu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-026",
@@ -298,7 +331,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A statue, building, or other structure erected to commemorate a notable person or event.",
       "example": "Visitors gathered around the historic national monument.",
       "exampleVi": "Khách tham quan đã tập trung quanh đài tưởng niệm quốc gia lịch sử.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-027",
@@ -309,7 +343,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A building in which objects of historical, scientific, artistic, or cultural interest are stored and exhibited.",
       "example": "The art museum offers free admission on Sundays.",
       "exampleVi": "Bảo tàng nghệ thuật miễn phí vé vào cửa vào các ngày Chủ nhật.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-028",
@@ -320,7 +355,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks.",
       "example": "Relax on the golden beach with a cold coconut.",
       "exampleVi": "Thư giãn trên bãi cát vàng với một trái dừa tươi mát.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-029",
@@ -331,7 +367,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level.",
       "example": "Trekking in the mountains brings a feeling of absolute freedom.",
       "exampleVi": "Đi bộ đường dài trên núi mang lại cảm giác tự do tuyệt đối.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-030",
@@ -342,7 +379,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A piece of land surrounded by water.",
       "example": "The tropical island is famous for crystal clear water.",
       "exampleVi": "Hòn đảo nhiệt đới nổi tiếng với làn nước trong vắt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa lý & Danh lam"
     },
     {
       "id": "tp-031",
@@ -353,7 +391,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The land and scenery of a rural area.",
       "example": "The peaceful countryside offers fresh air and green landscapes.",
       "exampleVi": "Vùng nông thôn yên bình mang lại không khí trong lành và cảnh quan xanh ngát.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-032",
@@ -364,7 +403,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A thing that is kept as a reminder of a person, place, or event.",
       "example": "I bought handcrafted silk scarves as souvenirs for my family.",
       "exampleVi": "Tôi đã mua những chiếc khăn lụa thủ công làm quà lưu niệm cho gia đình.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-033",
@@ -375,7 +415,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The customs, arts, social institutions, and achievements of a specific region.",
       "example": "Trying street food is the best way to embrace local culture.",
       "exampleVi": "Thử ẩm thực đường phố là cách tốt nhất để hòa mình vào văn hóa địa phương.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-034",
@@ -386,7 +427,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Of, from, in, or characteristic of a country or language other than one's own.",
       "example": "Speaking a foreign language opens up endless opportunities.",
       "exampleVi": "Nói được một ngoại ngữ mở ra vô vàn cơ hội.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-035",
@@ -397,7 +439,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "In or to a foreign country or countries.",
       "example": "She plans to study abroad for her master's degree.",
       "exampleVi": "Cô ấy dự định ra nước ngoài học thạc sĩ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-036",
@@ -408,7 +451,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To fill a suitcase with clothes and other items needed for travel.",
       "example": "Pack light so you can move around easily.",
       "exampleVi": "Hãy xếp đồ gọn nhẹ để bạn có thể di chuyển thuận tiện.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-037",
@@ -419,7 +463,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To remove the contents from a suitcase or bag.",
       "example": "Unpack your clothes and hang them in the hotel closet.",
       "exampleVi": "Dỡ quần áo ra và treo vào tủ quần áo của khách sạn nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-038",
@@ -430,7 +475,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To trade one country's money for another's.",
       "example": "Exchange currency at the bank for fair exchange rates.",
       "exampleVi": "Đổi ngoại tệ tại ngân hàng để có tỷ giá hối đoái công bằng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-039",
@@ -441,7 +487,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Easily remembered, especially because of being special or unusual.",
       "example": "Our cruise on Ha Long Bay was truly memorable.",
       "exampleVi": "Chuyến du thuyền trên Vịnh Hạ Long của chúng tôi thực sự rất đáng nhớ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-040",
@@ -452,7 +499,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An unusual and exciting, typically hazardous, experience or activity.",
       "example": "Kayaking through the caves was a thrilling adventure.",
       "exampleVi": "Chèo thuyền kayak qua các hang động là một cuộc phiêu lưu đầy kịch tính.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tham quan khám phá"
     },
     {
       "id": "tp-041",
@@ -463,7 +511,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A wish for someone to travel without incident or danger.",
       "example": "Have a safe journey and text me when you land!",
       "exampleVi": "Chúc bạn thượng lộ bình an và nhắn tin cho tôi khi hạ cánh nhé!",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-042",
@@ -474,7 +523,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "An establishment that provides inexpensive food and lodging for a specific group of people.",
       "example": "Youth hostels are a budget-friendly choice for solo travelers.",
       "exampleVi": "Nhà nghỉ thanh niên là lựa chọn tiết kiệm cho người du lịch một mình.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-043",
@@ -485,7 +535,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The natural features of a landscape considered in terms of their appearance.",
       "example": "The mountain pass offers breathtaking scenery.",
       "exampleVi": "Đèo núi mở ra phong cảnh ngoạn mục đến ngỡ ngàng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-044",
@@ -496,7 +547,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Astonishing or awe-inspiring in quality, so as to take one's breath away.",
       "example": "The sunrise view from the summit was breathtaking.",
       "exampleVi": "Cảnh bình minh nhìn từ đỉnh núi đẹp đến ngỡ ngàng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-045",
@@ -507,7 +559,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "To travel by getting free rides in passing vehicles.",
       "example": "He hitchhiked across Europe during his summer break.",
       "exampleVi": "Anh ấy đã đi nhờ xe dọc châu Âu trong kỳ nghỉ hè của mình.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-046",
@@ -518,7 +571,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Extreme tiredness and other physical effects felt by a person after a long flight across several time zones.",
       "example": "Drink lots of water and sleep early to beat jet lag.",
       "exampleVi": "Uống nhiều nước và ngủ sớm để vượt qua cảm giác lệch múi giờ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-047",
@@ -529,7 +583,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A voyage on a ship or boat taken for pleasure.",
       "example": "We booked an overnight luxury cruise on the bay.",
       "exampleVi": "Chúng tôi đã đặt một chuyến du thuyền sang trọng qua đêm trên vịnh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-048",
@@ -540,7 +595,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "The process or activity of accurately ascertaining one's position and planning a route.",
       "example": "Offline map navigation is lifesaver when traveling with no internet.",
       "exampleVi": "Điều hướng bản đồ ngoại tuyến là cứu cánh khi đi du lịch không có mạng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-049",
@@ -551,7 +607,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "Reddening, inflammation, and, in severe cases, blistering of the skin caused by overexposure to the rays of the sun.",
       "example": "Wear SPF 50 sunscreen to avoid painful sunburn.",
       "exampleVi": "Thoa kem chống nắng SPF 50 để tránh bị cháy nắng đau rát.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành lý & Chuẩn bị"
     },
     {
       "id": "tp-050",
@@ -562,7 +619,8 @@ export const TRAVEL_PLACES_DECK = {
       "definition": "A strong desire to travel.",
       "example": "Her wanderlust inspired her to visit over thirty countries.",
       "exampleVi": "Niềm đam mê xê dịch đã thôi thúc cô ấy đặt chân tới hơn ba mươi quốc gia.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hành lý & Chuẩn bị"
     }
   ]
 };

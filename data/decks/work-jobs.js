@@ -1,6 +1,7 @@
 /**
  * DECK: Công việc & Sự nghiệp
  * Giai đoạn 2 (A2 - B2) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const WORK_JOBS_DECK = {
@@ -12,6 +13,13 @@ export const WORK_JOBS_DECK = {
   "icon": "💼",
   "color": "#3b82f6",
   "level": "A2 - B2",
+  "subcategories": [
+    "Nghề nghiệp phổ biến",
+    "Nơi làm việc & Thiết bị",
+    "Nhiệm vụ & Báo cáo",
+    "Họp hành & Dự án",
+    "Hợp đồng & Đãi ngộ"
+  ],
   "targetCount": 350,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const WORK_JOBS_DECK = {
       "definition": "An occupation undertaken for a significant period of a person's life and with opportunities for progress.",
       "example": "She built a successful career in digital marketing.",
       "exampleVi": "Cô ấy đã xây dựng một sự nghiệp thành công trong ngành tiếp thị số.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-002",
@@ -34,7 +43,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A paid occupation, especially one that involves prolonged training and a formal qualification.",
       "example": "Teaching is a highly respected profession.",
       "exampleVi": "Dạy học là một nghề nghiệp chuyên môn rất được tôn trọng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-003",
@@ -45,7 +55,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A commercial business.",
       "example": "He works for an international tech company.",
       "exampleVi": "Anh ấy làm việc cho một công ty công nghệ quốc tế.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-004",
@@ -56,7 +67,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A room, set of rooms, or building used as a place for commercial or professional work.",
       "example": "Our modern office is located in the business district.",
       "exampleVi": "Văn phòng hiện đại của chúng tôi nằm ở khu trung tâm thương mại.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-005",
@@ -67,7 +79,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A place where people work.",
       "example": "A positive workplace culture boosts employee morale.",
       "exampleVi": "Văn hóa nơi làm việc tích cực thúc đẩy tinh thần nhân viên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-006",
@@ -78,7 +91,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A person or organization that employs people.",
       "example": "The company is recognized as a top employer in the region.",
       "exampleVi": "Công ty được công nhận là một nhà tuyển dụng hàng đầu trong khu vực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-007",
@@ -89,7 +103,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A person employed for wages or salary.",
       "example": "The firm employs more than five hundred employees.",
       "exampleVi": "Công ty sử dụng hơn năm trăm nhân viên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-008",
@@ -100,7 +115,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A person responsible for controlling or administering all or part of a company.",
       "example": "Our project manager assigned the weekly deliverables.",
       "exampleVi": "Người quản lý dự án đã phân công các hạng mục công việc hằng tuần.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-009",
@@ -111,7 +127,8 @@ export const WORK_JOBS_DECK = {
       "definition": "All the people employed by a particular organization.",
       "example": "The hotel staff were polite and attentive.",
       "exampleVi": "Đội ngũ nhân viên khách sạn rất lịch sự và chu đáo.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-010",
@@ -122,7 +139,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A formal meeting in which one or more persons question an applicant.",
       "example": "Prepare your answers carefully before the job interview.",
       "exampleVi": "Hãy chuẩn bị câu trả lời cẩn thận trước buổi phỏng vấn xin việc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nghề nghiệp phổ biến"
     },
     {
       "id": "wj-011",
@@ -133,7 +151,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A brief account of a person's education, qualifications, and previous experience.",
       "example": "Update your resume with your latest achievements.",
       "exampleVi": "Cập nhật CV với những thành tích mới nhất của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-012",
@@ -144,7 +163,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To make a formal application or request.",
       "example": "She decided to apply for the senior designer position.",
       "exampleVi": "Cô ấy quyết định nộp đơn ứng tuyển cho vị trí nhà thiết kế cao cấp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-013",
@@ -155,7 +175,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To employ someone for wages.",
       "example": "The department plans to hire three new software engineers.",
       "exampleVi": "Phòng ban dự kiến tuyển ba kỹ sư phần mềm mới.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-014",
@@ -166,7 +187,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To raise someone to a higher position or rank.",
       "example": "He was promoted to department head after achieving record sales.",
       "exampleVi": "Anh ấy đã được thăng chức lên trưởng phòng sau khi đạt doanh số kỷ lục.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-015",
@@ -177,7 +199,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To voluntarily leave a job or other position.",
       "example": "She resigned from her job to pursue further education.",
       "exampleVi": "Cô ấy đã thôi việc để theo đuổi con đường học vấn cao hơn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-016",
@@ -188,7 +211,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A fixed regular payment, typically paid on a monthly basis.",
       "example": "The job offers a competitive starting salary.",
       "exampleVi": "Công việc này mang lại mức lương khởi điểm rất cạnh tranh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-017",
@@ -199,7 +223,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A fixed regular payment earned for work or services, typically paid on a daily or weekly basis.",
       "example": "Workers receive an hourly wage for their shifts.",
       "exampleVi": "Công nhân nhận tiền công theo giờ cho các ca làm việc của họ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-018",
@@ -210,7 +235,8 @@ export const WORK_JOBS_DECK = {
       "definition": "An amount of money added to wages on a seasonal basis or for good performance.",
       "example": "Employees received an annual performance bonus.",
       "exampleVi": "Các nhân viên đã nhận được một khoản tiền thưởng hiệu suất hằng năm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-019",
@@ -221,7 +247,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Occupying or using the whole of someone's available working time.",
       "example": "He secured a permanent full-time position.",
       "exampleVi": "Anh ấy đã có được một vị trí làm việc toàn thời gian chính thức.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-020",
@@ -232,7 +259,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Employed for only part of the usual working day or week.",
       "example": "College students often take part-time tutoring jobs.",
       "exampleVi": "Sinh viên đại học thường làm các công việc gia sư bán thời gian.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nơi làm việc & Thiết bị"
     },
     {
       "id": "wj-021",
@@ -243,7 +271,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Time worked in addition to one's normal working hours.",
       "example": "She worked overtime to finish the urgent client project.",
       "exampleVi": "Cô ấy đã làm thêm ngoài giờ để hoàn thành dự án khách hàng khẩn cấp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-022",
@@ -254,7 +283,8 @@ export const WORK_JOBS_DECK = {
       "definition": "One of the periods into which a working day is divided.",
       "example": "He works the morning shift from 7:00 AM to 3:00 PM.",
       "exampleVi": "Anh ấy làm ca sáng từ 7 giờ sáng đến 3 giờ chiều.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-023",
@@ -265,7 +295,8 @@ export const WORK_JOBS_DECK = {
       "definition": "An enterprise carefully planned to achieve a particular aim.",
       "example": "We successfully delivered the mobile app project.",
       "exampleVi": "Chúng tôi đã bàn giao thành công dự án ứng dụng di động.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-024",
@@ -276,7 +307,8 @@ export const WORK_JOBS_DECK = {
       "definition": "An assembly of people for a particular purpose, especially for formal discussion.",
       "example": "The weekly team meeting starts at 9:00 AM.",
       "exampleVi": "Cuộc họp nhóm hằng tuần bắt đầu lúc 9 giờ sáng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-025",
@@ -287,7 +319,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A speech or talk in which a new product, idea, or piece of work is shown and explained to an audience.",
       "example": "She gave a compelling presentation on market trends.",
       "exampleVi": "Cô ấy đã có một bài thuyết trình thuyết phục về xu hướng thị trường.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-026",
@@ -298,7 +331,8 @@ export const WORK_JOBS_DECK = {
       "definition": "An account given of a particular matter, especially in the form of an official document.",
       "example": "Submit your quarterly financial report by Friday.",
       "exampleVi": "Nộp báo cáo tài chính quý của bạn trước thứ Sáu nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-027",
@@ -309,7 +343,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A piece of work to be done or undertaken.",
       "example": "Break large tasks down into smaller manageable steps.",
       "exampleVi": "Hãy chia nhỏ các đầu việc lớn thành những bước dễ quản lý.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-028",
@@ -320,7 +355,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The latest time or date by which something should be completed.",
       "example": "We worked extra hours to meet the tight deadline.",
       "exampleVi": "Chúng tôi đã làm thêm giờ để kịp hạn chót gấp gáp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-029",
@@ -331,7 +367,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A duty or task that you are required or expected to do.",
       "example": "Managing budgets is part of her core responsibility.",
       "exampleVi": "Quản lý ngân sách là một phần trong trách nhiệm cốt lõi của cô ấy.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-030",
@@ -342,7 +379,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Practical contact with and observation of facts or events.",
       "example": "He has five years of experience in project management.",
       "exampleVi": "Anh ấy có năm năm kinh nghiệm trong quản lý dự án.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nhiệm vụ & Báo cáo"
     },
     {
       "id": "wj-031",
@@ -353,7 +391,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The ability to do something well; expertise.",
       "example": "Communication is a crucial skill in every industry.",
       "exampleVi": "Giao tiếp là một kỹ năng quan trọng trong mọi ngành nghề.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-032",
@@ -364,7 +403,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A pass of an examination or an official completion of a course.",
       "example": "Candidates must have relevant educational qualifications.",
       "exampleVi": "Các ứng viên phải có bằng cấp chuyên môn liên quan.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-033",
@@ -375,7 +415,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The action of teaching a person a particular skill or type of behavior.",
       "example": "New recruits undergo two weeks of intensive training.",
       "exampleVi": "Các nhân viên mới tuyển dụng trải qua hai tuần đào tạo chuyên sâu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-034",
@@ -386,7 +427,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The combined action of a group of people, especially when effective and efficient.",
       "example": "Great teamwork made the project launch a triumph.",
       "exampleVi": "Tinh thần làm việc nhóm tuyệt vời đã giúp buổi ra mắt dự án thành công vang dội.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-035",
@@ -397,7 +439,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The action of leading a group of people or an organization.",
       "example": "Strong leadership guides a company through uncertain times.",
       "exampleVi": "Khả năng lãnh đạo vững vàng dẫn dắt công ty qua những giai đoạn bất định.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-036",
@@ -408,7 +451,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A person or organization using the services of a lawyer or other professional company.",
       "example": "We maintain close relationships with our key clients.",
       "exampleVi": "Chúng tôi duy trì mối quan hệ chặt chẽ với các khách hàng trọng yếu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-037",
@@ -419,7 +463,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A written or spoken agreement intended to be enforceable by law.",
       "example": "Read all terms carefully before signing the contract.",
       "exampleVi": "Đọc kỹ mọi điều khoản trước khi ký hợp đồng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-038",
@@ -430,7 +475,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To obtain or bring about by discussion.",
       "example": "They negotiated a favorable deal for both sides.",
       "exampleVi": "Họ đã đàm phán một thỏa thuận có lợi cho cả hai bên.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-039",
@@ -441,7 +487,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The accomplishment of an aim or purpose.",
       "example": "Hard work and consistency lead to career success.",
       "exampleVi": "Chăm chỉ và kiên định dẫn đến thành công trong sự nghiệp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-040",
@@ -452,7 +499,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A thing done successfully, typically by effort, courage, or skill.",
       "example": "Winning the award was a proud achievement.",
       "exampleVi": "Đoạt giải thưởng là một thành tựu đáng tự hào.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Họp hành & Dự án"
     },
     {
       "id": "wj-041",
@@ -463,7 +511,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To leave one's job and cease to work, typically upon reaching the normal age for leaving employment.",
       "example": "My father plans to retire at the age of sixty-two.",
       "exampleVi": "Bố tôi dự định nghỉ hưu ở tuổi sáu mươi hai.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-042",
@@ -474,7 +523,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To travel some distance to and from one's place of work on a regular basis.",
       "example": "He commutes by express train every weekday morning.",
       "exampleVi": "Anh ấy đi làm bằng tàu tốc hành vào mỗi sáng ngày trong tuần.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-043",
@@ -485,7 +535,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The effectiveness of productive effort, especially in industry, as measured in terms of the rate of output per unit of input.",
       "example": "Good sleep directly impacts daily productivity.",
       "exampleVi": "Giấc ngủ ngon ảnh hưởng trực tiếp đến năng suất làm việc hằng ngày.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-044",
@@ -496,7 +547,8 @@ export const WORK_JOBS_DECK = {
       "definition": "The amount of work to be done by a particular person or machine in a given period.",
       "example": "We hired an assistant to manage the heavy workload.",
       "exampleVi": "Chúng tôi đã thuê một trợ lý để quán xuyến khối lượng công việc lớn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-045",
@@ -507,7 +559,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Able to be easily modified to respond to altered circumstances.",
       "example": "The company offers flexible working hours for parents.",
       "exampleVi": "Công ty cung cấp giờ làm việc linh hoạt cho các bậc cha mẹ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-046",
@@ -518,7 +571,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Work done away from the usual office location, typically from home.",
       "example": "Remote work allows professionals to work from anywhere.",
       "exampleVi": "Làm việc từ xa cho phép các chuyên gia làm việc từ bất cứ đâu.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-047",
@@ -529,7 +583,8 @@ export const WORK_JOBS_DECK = {
       "definition": "Information about reactions to a product, a person's performance of a task.",
       "example": "Constructive feedback helps you improve your work.",
       "exampleVi": "Phản hồi mang tính xây dựng giúp bạn cải thiện công việc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-048",
@@ -540,7 +595,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A thing aimed at or sought; a goal.",
       "example": "Our main objective this quarter is increasing user retention.",
       "exampleVi": "Mục tiêu chính của chúng tôi trong quý này là tăng tỷ lệ giữ chân người dùng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-049",
@@ -551,7 +607,8 @@ export const WORK_JOBS_DECK = {
       "definition": "A set of circumstances that makes it possible to do something.",
       "example": "The new role is a fantastic career opportunity.",
       "exampleVi": "Vị trí mới là một cơ hội nghề nghiệp tuyệt vời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     },
     {
       "id": "wj-050",
@@ -562,7 +619,8 @@ export const WORK_JOBS_DECK = {
       "definition": "To work jointly on an activity, especially to produce or create something.",
       "example": "Our marketing and engineering teams collaborate closely.",
       "exampleVi": "Đội ngũ tiếp thị và kỹ thuật của chúng tôi hợp tác rất chặt chẽ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Hợp đồng & Đãi ngộ"
     }
   ]
 };

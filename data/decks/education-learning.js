@@ -1,6 +1,7 @@
 /**
  * DECK: Giáo dục & Học tập
  * Giai đoạn 2 (A2 - B2) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const EDUCATION_LEARNING_DECK = {
@@ -12,6 +13,13 @@ export const EDUCATION_LEARNING_DECK = {
   "icon": "🎓",
   "color": "#f97316",
   "level": "A2 - B2",
+  "subcategories": [
+    "Trường học & Đại học",
+    "Môn học & Ngành học",
+    "Học tập & Ôn thi",
+    "Dụng cụ học tập",
+    "Kỹ năng & Kiến thức"
+  ],
   "targetCount": 300,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "An institution for educating children.",
       "example": "Children start primary school at age six.",
       "exampleVi": "Trẻ em bắt đầu vào trường tiểu học lúc sáu tuổi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-002",
@@ -34,7 +43,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A high-level educational institution in which students study for degrees.",
       "example": "She graduated from a prestigious university.",
       "exampleVi": "Cô ấy đã tốt nghiệp từ một trường đại học danh tiếng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-003",
@@ -45,7 +55,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A room, typically in a school, in which a class of students is taught.",
       "example": "The classroom is equipped with an interactive smart screen.",
       "exampleVi": "Phòng học được trang bị một màn hình thông minh tương tác.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-004",
@@ -56,7 +67,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A building or room containing collections of books and periodicals for reading or borrowing.",
       "example": "The public library is a quiet place to study.",
       "exampleVi": "Thư viện công cộng là một nơi yên tĩnh để học tập.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-005",
@@ -67,7 +79,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A person who teaches, especially in a school.",
       "example": "Our English teacher makes grammar easy to understand.",
       "exampleVi": "Giáo viên tiếng Anh của chúng tôi giảng ngữ pháp rất dễ hiểu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-006",
@@ -78,7 +91,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A university academic of the highest rank.",
       "example": "The professor delivered an insightful lecture on psychology.",
       "exampleVi": "Vị giáo sư đã giảng một bài học sâu sắc về tâm lý học.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-007",
@@ -89,7 +103,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A person who is studying at a school or university.",
       "example": "Every student should review their notes daily.",
       "exampleVi": "Mọi học sinh nên ôn lại bài ghi chép mỗi ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-008",
@@ -100,7 +115,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A branch of knowledge studied or taught in a system of education.",
       "example": "Mathematics and Science are core subjects.",
       "exampleVi": "Toán học và Khoa học là các môn học cốt lõi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-009",
@@ -111,7 +127,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A period of learning or teaching.",
       "example": "Today's lesson focuses on English pronunciation.",
       "exampleVi": "Bài học hôm nay tập trung vào phát âm tiếng Anh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-010",
@@ -122,7 +139,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A series of lectures or lessons in a particular subject.",
       "example": "I enrolled in an online web development course.",
       "exampleVi": "Tôi đã đăng ký một khóa học phát triển web trực tuyến.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trường học & Đại học"
     },
     {
       "id": "el-011",
@@ -133,7 +151,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "An educational talk to an audience, especially to students in a university.",
       "example": "The lecture on modern history lasted two hours.",
       "exampleVi": "Bài giảng về lịch sử hiện đại kéo dài hai tiếng đồng hồ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-012",
@@ -144,7 +163,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The subjects comprising a course of study in a school or college.",
       "example": "The curriculum blends theoretical knowledge with practical skills.",
       "exampleVi": "Khung chương trình kết hợp kiến thức lý thuyết với kỹ năng thực hành.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-013",
@@ -155,7 +175,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A book used as a standard work for the study of a particular subject.",
       "example": "Open your textbooks to page fifty-two.",
       "exampleVi": "Hãy mở sách giáo khoa của các em ra trang năm mươi hai.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-014",
@@ -166,7 +187,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A book with blank or ruled pages for writing notes on.",
       "example": "Write key vocabulary in your personal notebook.",
       "exampleVi": "Ghi lại các từ vựng trọng tâm vào vở ghi cá nhân của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-015",
@@ -177,7 +199,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "Schoolwork that a student is required to do at home.",
       "example": "Finish your homework before watching television.",
       "exampleVi": "Hãy hoàn thành bài tập về nhà trước khi xem tivi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-016",
@@ -188,7 +211,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A task or piece of work assigned to someone as part of a course of study.",
       "example": "Submit your written assignment by Friday midnight.",
       "exampleVi": "Hãy nộp bài tập được giao trước nửa đêm thứ Sáu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-017",
@@ -199,7 +223,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A short piece of writing on a particular subject.",
       "example": "He wrote a thoughtful essay on renewable energy.",
       "exampleVi": "Anh ấy đã viết một bài luận sâu sắc về năng lượng tái tạo.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-018",
@@ -210,7 +235,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A formal test of a person's knowledge or proficiency in a subject or skill.",
       "example": "She prepared diligently for the final exam.",
       "exampleVi": "Cô ấy đã chuẩn bị rất chăm chỉ cho kỳ thi cuối kỳ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-019",
@@ -221,7 +247,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A mark indicating a student's level of accomplishment in a course.",
       "example": "She earned an A grade in advanced mathematics.",
       "exampleVi": "Cô ấy đã đạt điểm A trong môn toán nâng cao.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-020",
@@ -232,7 +259,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The number of points or marks achieved in a test or game.",
       "example": "His high IELTS score opened doors for study abroad.",
       "exampleVi": "Điểm thi IELTS cao đã mở ra cơ hội du học cho anh ấy.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Môn học & Ngành học"
     },
     {
       "id": "el-021",
@@ -243,7 +271,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To be successful in an examination, test, or course.",
       "example": "Study hard so you will pass all your examinations.",
       "exampleVi": "Hãy học hành chăm chỉ để bạn sẽ đỗ tất cả các kỳ thi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-022",
@@ -254,7 +283,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To be unsuccessful in an examination or test.",
       "example": "Don't be discouraged if you fail a test; learn from your mistakes.",
       "exampleVi": "Đừng nản lòng nếu bạn thi trượt một bài kiểm tra; hãy học hỏi từ sai sót.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-023",
@@ -265,7 +295,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To apply one's mind to acquiring knowledge through books.",
       "example": "She studies English flashcards fifteen minutes every single day.",
       "exampleVi": "Cô ấy học từ vựng tiếng Anh qua flashcard mười lăm phút mỗi ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-024",
@@ -276,7 +307,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To commit to memory; learn by heart.",
       "example": "Spaced repetition helps you memorize words permanently.",
       "exampleVi": "Lặp lại ngắt quãng giúp bạn ghi nhớ từ vựng vĩnh viễn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-025",
@@ -287,7 +319,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To perceive the intended meaning of words or concepts.",
       "example": "Do you understand the main theme of this passage?",
       "exampleVi": "Bạn có hiểu chủ đề chính của đoạn văn này không?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-026",
@@ -298,7 +331,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To reread work done in order to prepare for an examination.",
       "example": "Revise your vocabulary cards before going to bed.",
       "exampleVi": "Ôn tập lại các thẻ từ vựng trước khi đi ngủ nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-027",
@@ -309,7 +343,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To perform an activity repeatedly or regularly to improve skill.",
       "example": "Practice makes perfect.",
       "exampleVi": "Có công mài sắt, có ngày nên kim (luyện tập tạo nên sự hoàn hảo).",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-028",
@@ -320,7 +355,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "Facts, information, and skills acquired by a person through experience or education.",
       "example": "Reading books expands your general knowledge.",
       "exampleVi": "Đọc sách mở rộng vốn kiến thức tổng quát của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-029",
@@ -331,7 +367,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "An academic title conferred by universities.",
       "example": "He holds a bachelor's degree in Computer Science.",
       "exampleVi": "Anh ấy có bằng cử nhân ngành Khoa học Máy tính.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-030",
@@ -342,7 +379,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "An official document attesting a certain fact or qualification.",
       "example": "She earned a professional certificate in graphic design.",
       "exampleVi": "Cô ấy đã đạt được chứng chỉ chuyên nghiệp về thiết kế đồ họa.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Học tập & Ôn thi"
     },
     {
       "id": "el-031",
@@ -353,7 +391,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A grant or payment made to support a student's education, awarded on the basis of academic achievement.",
       "example": "She won a full scholarship to study in Australia.",
       "exampleVi": "Cô ấy đã giành được học bổng toàn phần để theo học tại Úc.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-032",
@@ -364,7 +403,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A sum of money charged for teaching by a college or university.",
       "example": "University tuition has risen steadily over the decade.",
       "exampleVi": "Học phí đại học đã tăng đều đặn qua thập kỷ qua.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-033",
@@ -375,7 +415,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To successfully complete an academic degree or course of training.",
       "example": "He will graduate from medical school next summer.",
       "exampleVi": "Anh ấy sẽ tốt nghiệp trường y vào mùa hè tới.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-034",
@@ -386,7 +427,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A half-year term in a school or college.",
       "example": "The autumn semester begins in early September.",
       "exampleVi": "Học kỳ mùa thu bắt đầu vào đầu tháng Chín.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-035",
@@ -397,7 +439,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The action or state of attending school or classes.",
       "example": "Regular attendance is required to sit for the final exam.",
       "exampleVi": "Điểm danh đầy đủ là điều kiện bắt buộc để được dự thi cuối kỳ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-036",
@@ -408,7 +451,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.",
       "example": "Scientific research drives modern innovation.",
       "exampleVi": "Nghiên cứu khoa học thúc đẩy đổi mới sáng tạo hiện đại.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-037",
@@ -419,7 +463,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A scientific procedure undertaken to make a discovery or test a hypothesis.",
       "example": "The chemistry experiment produced surprising results.",
       "exampleVi": "Thí nghiệm hóa học đã cho ra những kết quả đáng kinh ngạc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-038",
@@ -430,7 +475,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "Relating to education and scholarship.",
       "example": "She achieved outstanding academic success throughout her studies.",
       "exampleVi": "Cô ấy đã đạt được thành tích học thuật xuất sắc trong suốt quá trình học tập.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-039",
@@ -441,7 +487,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A demonstration or speech presenting information to a class.",
       "example": "Our group presentation received the highest marks.",
       "exampleVi": "Bài thuyết trình nhóm của chúng tôi đã nhận được điểm số cao nhất.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-040",
@@ -452,7 +499,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A quick and informal test of knowledge.",
       "example": "We have a short vocabulary quiz every Friday.",
       "exampleVi": "Chúng tôi có một bài kiểm tra từ vựng ngắn vào mỗi thứ Sáu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Dụng cụ học tập"
     },
     {
       "id": "el-041",
@@ -463,7 +511,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To focus all one's attention or mental effort on a particular object or activity.",
       "example": "Turn off notifications to concentrate on your reading.",
       "exampleVi": "Tắt thông báo để tập trung vào việc đọc sách.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-042",
@@ -474,7 +523,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To make or become better.",
       "example": "Daily practice helps improve your spoken English.",
       "exampleVi": "Luyện tập hằng ngày giúp cải thiện khả năng nói tiếng Anh của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-043",
@@ -485,7 +535,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "Natural aptitude or skill.",
       "example": "She possesses an extraordinary talent for learning foreign languages.",
       "exampleVi": "Cô ấy sở hữu một tài năng phi thường trong việc học ngoại ngữ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-044",
@@ -496,7 +547,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "Having or showing care and conscientiousness in one's work or duties.",
       "example": "Diligent students always review their lessons consistently.",
       "exampleVi": "Những học sinh siêng năng luôn ôn lại bài học một cách đều đặn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-045",
@@ -507,7 +559,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "An action or judgment that is misguided or wrong.",
       "example": "Making mistakes is a natural and necessary part of learning.",
       "exampleVi": "Mắc lỗi là một phần tự nhiên và cần thiết trong quá trình học tập.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-046",
@@ -518,7 +571,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "To put right an error or fault.",
       "example": "The teacher corrected the spelling errors on my essay.",
       "exampleVi": "Thầy giáo đã sửa các lỗi chính tả trong bài luận của tôi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-047",
@@ -529,7 +583,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The way in which a word is pronounced.",
       "example": "Listen to native audio to polish your pronunciation.",
       "exampleVi": "Nghe âm thanh người bản xứ để trau chuốt phát âm của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-048",
@@ -540,7 +595,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "A body of words used in a particular language.",
       "example": "Building a rich vocabulary allows you to express nuanced thoughts.",
       "exampleVi": "Xây dựng vốn từ vựng phong phú cho phép bạn biểu đạt những suy nghĩ tinh tế.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-049",
@@ -551,7 +607,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The whole system and structure of a language.",
       "example": "Good grammar ensures your writing is clear and precise.",
       "exampleVi": "Ngữ pháp tốt đảm bảo bài viết của bạn rõ ràng và chính xác.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Kỹ năng & Kiến thức"
     },
     {
       "id": "el-050",
@@ -562,7 +619,8 @@ export const EDUCATION_LEARNING_DECK = {
       "definition": "The ability to speak or write a foreign language easily and accurately.",
       "example": "Consistent daily immersion leads to natural English fluency.",
       "exampleVi": "Đắm mình vào tiếng Anh đều đặn mỗi ngày dẫn đến sự trôi chảy tự nhiên.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Kỹ năng & Kiến thức"
     }
   ]
 };

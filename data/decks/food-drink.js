@@ -1,6 +1,7 @@
 /**
  * DECK: Ăn uống & Ẩm thực
  * Giai đoạn 1 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const FOOD_DRINK_DECK = {
@@ -12,6 +13,13 @@ export const FOOD_DRINK_DECK = {
   "icon": "🍜",
   "color": "#f59e0b",
   "level": "A1 - B1",
+  "subcategories": [
+    "Món ăn & Thực phẩm",
+    "Đồ uống",
+    "Nấu nướng & Chế biến",
+    "Hương vị & Cảm nhận",
+    "Ăn uống tại quán"
+  ],
   "targetCount": 250,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Any of the regular occasions in a day when a reasonably large amount of food is eaten.",
       "example": "Breakfast is the most important meal of the day.",
       "exampleVi": "Bữa sáng là bữa ăn quan trọng nhất trong ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-002",
@@ -34,7 +43,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Any of the foods or substances that are combined to make a particular dish.",
       "example": "Fresh herbs are essential ingredients in Vietnamese cooking.",
       "exampleVi": "Rau thơm tươi là nguyên liệu thiết yếu trong ẩm thực Việt Nam.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-003",
@@ -45,7 +55,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A set of instructions for preparing a particular dish.",
       "example": "Follow this simple recipe to make delicious pasta.",
       "exampleVi": "Hãy làm theo công thức đơn giản này để nấu món mì Ý thơm ngon.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-004",
@@ -56,7 +67,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The sensation of flavor perceived in the mouth.",
       "example": "The soup has a rich, savory taste.",
       "exampleVi": "Món súp có hương vị đậm đà và thơm ngon.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-005",
@@ -67,7 +79,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The distinctive taste of a food or drink.",
       "example": "Vanilla and chocolate are popular ice cream flavors.",
       "exampleVi": "Vani và sô-cô-la là những mùi vị kem được yêu thích.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-006",
@@ -78,7 +91,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Having the pleasant taste characteristic of sugar or honey.",
       "example": "Ripe mangoes are naturally sweet and juicy.",
       "exampleVi": "Xoài chín có vị ngọt tự nhiên và mọng nước.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-007",
@@ -89,7 +103,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Having an acid taste like lemon or vinegar.",
       "example": "Lemons have a sharp, sour flavor.",
       "exampleVi": "Chanh có vị chua gắt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-008",
@@ -100,7 +115,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Tasting of or containing salt.",
       "example": "These potato chips are a bit too salty.",
       "exampleVi": "Mấy gói khoai tây chiên này hơi quá mặn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-009",
@@ -111,7 +127,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Having a sharp, pungent taste; not sweet.",
       "example": "Dark chocolate has a pleasant bitter note.",
       "exampleVi": "Sô-cô-la đen có một vị đắng nhẹ dễ chịu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-010",
@@ -122,7 +139,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Flavored with or fragrant with spice.",
       "example": "I love spicy noodles with chili oil.",
       "exampleVi": "Tôi thích ăn mì cay với dầu ớt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Món ăn & Thực phẩm"
     },
     {
       "id": "fd-011",
@@ -133,7 +151,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Highly pleasant to the taste.",
       "example": "Thank you for the delicious dinner.",
       "exampleVi": "Cảm ơn bạn vì bữa tối ngon tuyệt vời.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-012",
@@ -144,7 +163,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Recently made or gathered; not canned or frozen.",
       "example": "We buy fresh vegetables from the local farmer's market.",
       "exampleVi": "Chúng tôi mua rau tươi từ chợ nông sản địa phương.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-013",
@@ -155,7 +175,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Produced without the use of chemical fertilizers or pesticides.",
       "example": "Organic eggs are healthier and richer in nutrients.",
       "exampleVi": "Trứng hữu cơ tốt cho sức khỏe và giàu dinh dưỡng hơn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-014",
@@ -166,7 +187,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Not cooked.",
       "example": "Sushi is made with fresh raw fish.",
       "exampleVi": "Sushi được làm từ cá tươi sống.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-015",
@@ -177,7 +199,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked on a metal grid over direct heat.",
       "example": "Grilled chicken with lime and pepper is my favorite.",
       "exampleVi": "Gà nướng vỉ với muối tiêu chanh là món yêu thích của tôi.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-016",
@@ -188,7 +211,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked in hot fat or oil.",
       "example": "He ordered fried rice with seafood.",
       "exampleVi": "Anh ấy đã gọi món cơm chiên hải sản.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-017",
@@ -199,7 +223,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked in boiling water.",
       "example": "A boiled egg is a quick breakfast option.",
       "exampleVi": "Một quả trứng luộc là lựa chọn bữa sáng nhanh gọn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-018",
@@ -210,7 +235,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked by dry heat in an oven.",
       "example": "The aroma of freshly baked bread filled the room.",
       "exampleVi": "Hương thơm của bánh mì mới nướng lan tỏa khắp căn phòng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-019",
@@ -221,7 +247,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked by prolonged exposure to heat in an oven or over a fire.",
       "example": "We enjoyed roasted potatoes with herbs.",
       "exampleVi": "Chúng tôi đã thưởng thức khoai tây nướng thảo mộc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-020",
@@ -232,7 +259,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Cooked by heating in steam.",
       "example": "Steamed dumplings are light and healthy.",
       "exampleVi": "Bánh bao hấp ăn rất thanh nhẹ và tốt cho sức khỏe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Đồ uống"
     },
     {
       "id": "fd-021",
@@ -243,7 +271,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A natural desire to satisfy a bodily need, especially for food.",
       "example": "A long walk in the cold weather built up my appetite.",
       "exampleVi": "Chuyến đi bộ dài trong tiết trời lạnh đã làm tôi thấy rất thèm ăn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-022",
@@ -254,7 +283,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Feeling a need to drink.",
       "example": "After jogging under the sun, I was extremely thirsty.",
       "exampleVi": "Sau khi chạy bộ dưới trời nắng, tôi cực kỳ khát nước.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-023",
@@ -265,7 +295,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Feeling or displaying the need for food.",
       "example": "What time is dinner? I'm getting hungry.",
       "exampleVi": "Mấy giờ ăn tối vậy? Tôi đang đói bụng rồi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-024",
@@ -276,7 +307,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A drink, especially one other than water.",
       "example": "Hot and cold beverages are available at the counter.",
       "exampleVi": "Các loại đồ uống nóng và lạnh đều có sẵn tại quầy.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-025",
@@ -287,7 +319,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A non-alcoholic, carbonated beverage.",
       "example": "I cut down on soft drinks to stay healthy.",
       "exampleVi": "Tôi cắt giảm nước ngọt có ga để giữ gìn sức khỏe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-026",
@@ -298,7 +331,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A hot drink made from the roasted and ground seeds of coffee beans.",
       "example": "I start every day with a cup of black coffee.",
       "exampleVi": "Tôi bắt đầu mỗi ngày với một tách cà phê đen.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-027",
@@ -309,7 +343,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A hot drink made by infusing dried crushed leaves in boiling water.",
       "example": "Green tea contains beneficial antioxidants.",
       "exampleVi": "Trà xanh chứa các chất chống oxy hóa rất có lợi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-028",
@@ -320,7 +355,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Liquid extracted from fruit.",
       "example": "Fresh orange juice is rich in vitamin C.",
       "exampleVi": "Nước cam tươi rất giàu vitamin C.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-029",
@@ -331,7 +367,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "An opaque white fluid rich in fat and protein.",
       "example": "Pour some milk into your oatmeal.",
       "exampleVi": "Rót một chút sữa vào yến mạch của bạn nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-030",
@@ -342,7 +379,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A plant or part of a plant used as food.",
       "example": "Eat plenty of green vegetables every day.",
       "exampleVi": "Hãy ăn nhiều rau xanh mỗi ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Nấu nướng & Chế biến"
     },
     {
       "id": "fd-031",
@@ -353,7 +391,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The sweet and fleshy product of a tree or other plant containing seed.",
       "example": "An apple is a convenient and healthy snack fruit.",
       "exampleVi": "Táo là một loại trái cây ăn nhẹ tiện lợi và lành mạnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-032",
@@ -364,7 +403,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The flesh of an animal as food.",
       "example": "He prefers lean meat over fatty cuts.",
       "exampleVi": "Anh ấy thích ăn thịt nạc hơn là thịt mỡ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-033",
@@ -375,7 +415,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The culinary name for meat from cattle.",
       "example": "We ordered medium-rare beef steaks.",
       "exampleVi": "Chúng tôi đã gọi bít tết thịt bò chín vừa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-034",
@@ -386,7 +427,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The culinary name for the meat of a pig.",
       "example": "Caramelized pork is a classic Vietnamese home dish.",
       "exampleVi": "Thịt heo kho tàu là món ăn gia đình kinh điển của Việt Nam.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-035",
@@ -397,7 +439,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A domestic fowl kept for its eggs or meat.",
       "example": "Chicken breast is high in protein.",
       "exampleVi": "Ức gà có hàm lượng protein rất cao.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-036",
@@ -408,7 +451,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Shellfish and sea fish, served as food.",
       "example": "The coastal restaurant serves fresh seafood daily.",
       "exampleVi": "Nhà hàng ven biển phục vụ hải sản tươi mỗi ngày.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-037",
@@ -419,7 +463,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A limbless cold-blooded vertebrate animal with gills living in water.",
       "example": "Steamed fish with ginger is gentle on the stomach.",
       "exampleVi": "Cá hấp gừng rất thanh nhẹ cho dạ dày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-038",
@@ -430,7 +475,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The seed of the grass species Oryza sativa, eaten as staple food.",
       "example": "Steamed jasmine rice goes well with any savory dish.",
       "exampleVi": "Cơm gạo lài hấp ăn kèm với món mặn nào cũng ngon.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-039",
@@ -441,7 +487,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A strip, ring, or tube of pasta or dough, cooked in boiling water.",
       "example": "A warm bowl of beef noodle soup warms you up.",
       "exampleVi": "Một bát phở bò nóng hổi làm ấm người bạn lên.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-040",
@@ -452,7 +499,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Food made of flour, water, and yeast or another leavening agent.",
       "example": "A crispy baguette with pate is a tasty breakfast.",
       "exampleVi": "Bánh mì giòn kẹp pa-tê là một bữa sáng ngon miệng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hương vị & Cảm nhận"
     },
     {
       "id": "fd-041",
@@ -463,7 +511,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "The sweet course eaten at the end of a meal.",
       "example": "For dessert, we had fresh mango and sticky rice.",
       "exampleVi": "Món tráng miệng chúng tôi dùng là xoài tươi và xôi nếp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-042",
@@ -474,7 +523,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A person who does not eat meat or fish, or food suitable for them.",
       "example": "The restaurant has a dedicated menu for vegetarians.",
       "exampleVi": "Nhà hàng có một thực đơn dành riêng cho người ăn chay.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-043",
@@ -485,7 +535,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A printed statement of the money owed for goods or services.",
       "example": "Could we have the bill, please?",
       "exampleVi": "Làm ơn cho chúng tôi xin hóa đơn tính tiền nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-044",
@@ -496,7 +547,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A small amount of food eaten between meals.",
       "example": "Almonds and walnuts are healthy afternoon snacks.",
       "exampleVi": "Hạnh nhân và óc chó là món ăn vặt buổi chiều lành mạnh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-045",
@@ -507,7 +559,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "A meal consisting of several dishes from which guests serve themselves.",
       "example": "The seafood buffet includes crab and lobster.",
       "exampleVi": "Bữa tiệc buffet hải sản bao gồm cả cua và tôm hùm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-046",
@@ -518,7 +571,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "To request dishes to be prepared at a restaurant.",
       "example": "Are you ready to order food now?",
       "exampleVi": "Bạn đã sẵn sàng gọi món chưa?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-047",
@@ -529,7 +583,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Food remaining after a meal.",
       "example": "Put the leftovers in the fridge for tomorrow's lunch.",
       "exampleVi": "Cất thức ăn thừa vào tủ lạnh cho bữa trưa ngày mai nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-048",
@@ -540,7 +595,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Food bought from a restaurant to be eaten elsewhere.",
       "example": "Let's grab some takeout on our way home.",
       "exampleVi": "Hãy mua đồ ăn mang về trên đường về nhà nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-049",
@@ -551,7 +607,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "Nourishing; efficient as food.",
       "example": "A balanced bowl of oats and nuts is very nutritious.",
       "exampleVi": "Một bát yến mạch và hạt cân đối rất giàu dinh dưỡng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Ăn uống tại quán"
     },
     {
       "id": "fd-050",
@@ -562,7 +619,8 @@ export const FOOD_DRINK_DECK = {
       "definition": "To bite and work food in the mouth with the teeth.",
       "example": "Chew your food slowly to aid digestion.",
       "exampleVi": "Hãy nhai thức ăn chậm rãi để hỗ trợ tiêu hóa.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Ăn uống tại quán"
     }
   ]
 };

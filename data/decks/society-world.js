@@ -1,6 +1,7 @@
 /**
  * DECK: Xã hội & Thế giới
  * Giai đoạn 3 (B1 - B2) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const SOCIETY_WORLD_DECK = {
@@ -12,6 +13,13 @@ export const SOCIETY_WORLD_DECK = {
   "icon": "🌍",
   "color": "#64748b",
   "level": "B1 - B2",
+  "subcategories": [
+    "Cộng đồng & Xã hội",
+    "Quốc gia & Luật pháp",
+    "Văn hóa & Truyền thống",
+    "Tin tức & Truyền thông",
+    "Thế giới & Nhân loại"
+  ],
   "targetCount": 350,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The aggregate of people living together in a more or less ordered community.",
       "example": "Education is the foundation of a prosperous society.",
       "exampleVi": "Giáo dục là nền tảng của một xã hội thịnh vượng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-002",
@@ -34,7 +43,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A group of people living in the same place or having a particular characteristic in common.",
       "example": "The local community organized a park cleanup event.",
       "exampleVi": "Cộng đồng địa phương đã tổ chức một sự kiện dọn sạch công viên.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-003",
@@ -45,7 +55,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A nation with its own government, occupying a particular territory.",
       "example": "Vietnam is a peaceful and welcoming country.",
       "exampleVi": "Việt Nam là một đất nước hòa bình và hiếu khách.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-004",
@@ -56,7 +67,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A large body of people united by common descent, history, culture, or language.",
       "example": "The nation celebrated its independence day with fireworks.",
       "exampleVi": "Cả quốc gia đã ăn mừng ngày quốc khánh bằng những màn pháo hoa.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-005",
@@ -67,7 +79,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The governing body of a nation, state, or community.",
       "example": "The government introduced policies to support green businesses.",
       "exampleVi": "Chính phủ đã ban hành các chính sách để hỗ trợ doanh nghiệp xanh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-006",
@@ -78,7 +91,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A legally recognized subject or national of a state or commonwealth.",
       "example": "Every citizen has the right and duty to vote.",
       "exampleVi": "Mọi công dân đều có quyền và nghĩa vụ đi bỏ phiếu.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-007",
@@ -89,7 +103,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "All the inhabitants of a particular town, area, or country.",
       "example": "The city has a thriving population of over eight million people.",
       "exampleVi": "Thành phố có dân số phát triển mạnh mẽ với hơn tám triệu người.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-008",
@@ -100,7 +115,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The arts and other manifestations of human intellectual achievement regarded collectively.",
       "example": "Respecting diverse cultures fosters international harmony.",
       "exampleVi": "Tôn trọng các nền văn hóa đa dạng thúc đẩy sự hòa hợp quốc tế.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-009",
@@ -111,7 +127,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The transmission of customs or beliefs from generation to generation.",
       "example": "Making Chung cake is a cherished Tet holiday tradition.",
       "exampleVi": "Gói bánh chưng là một truyền thống quý báu trong dịp Tết.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-010",
@@ -122,7 +139,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A widely accepted way of behaving or doing something that is specific to a society.",
       "example": "It is a local custom to remove your shoes before entering.",
       "exampleVi": "Tháo giày trước khi vào nhà là một phong tục tập quán địa phương.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Cộng đồng & Xã hội"
     },
     {
       "id": "sw-011",
@@ -133,7 +151,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The principal method of human communication, consisting of words used in a structured way.",
       "example": "Learning a new language opens up a whole new world.",
       "exampleVi": "Học một ngôn ngữ mới mở ra một thế giới hoàn toàn mới.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-012",
@@ -144,7 +163,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The system of rules which a particular country or community recognizes as regulating actions of its members.",
       "example": "Everyone is equal before the law.",
       "exampleVi": "Mọi người đều bình đẳng trước pháp luật.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-013",
@@ -155,7 +175,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "One of a set of explicit regulations governing conduct within a particular sphere.",
       "example": "Follow the safety rules when riding a bicycle.",
       "exampleVi": "Tuân theo các quy tắc an toàn khi đi xe đạp.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-014",
@@ -166,7 +187,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Just behavior or treatment; the quality of being fair and reasonable.",
       "example": "The legal system is designed to deliver justice for all.",
       "exampleVi": "Hệ thống pháp luật được thiết kế để mang lại công lý cho tất cả mọi người.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-015",
@@ -177,7 +199,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A moral or legal entitlement to have or obtain something.",
       "example": "Access to clean water is a fundamental human right.",
       "exampleVi": "Tiếp cận nước sạch là một quyền cơ bản của con người.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-016",
@@ -188,7 +211,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The power or right to act, speak, or think as one wants without hindrance or restraint.",
       "example": "Freedom of speech is protected by the constitution.",
       "exampleVi": "Tự do ngôn luận được bảo vệ bởi hiến pháp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-017",
@@ -199,7 +223,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Freedom from disturbance; a state of tranquility or harmony.",
       "example": "All nations should strive for lasting global peace.",
       "exampleVi": "Mọi quốc gia nên phấn đấu vì một nền hòa bình toàn cầu bền vững.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-018",
@@ -210,7 +235,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A serious disagreement or argument, typically a protracted one.",
       "example": "Dialogue is the most effective path to resolving conflicts.",
       "exampleVi": "Đối thoại là con đường hiệu quả nhất để giải quyết các xung đột.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-019",
@@ -221,7 +247,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The state of a country or region in terms of the production and consumption of goods.",
       "example": "Renewable green energy drives sustainable economy growth.",
       "exampleVi": "Năng lượng xanh tái tạo thúc đẩy tăng trưởng kinh tế bền vững.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-020",
@@ -232,7 +259,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The action of buying and selling goods and services.",
       "example": "International trade creates jobs and broadens market choices.",
       "exampleVi": "Thương mại quốc tế tạo ra việc làm và mở rộng sự lựa chọn trên thị trường.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quốc gia & Luật pháp"
     },
     {
       "id": "sw-021",
@@ -243,7 +271,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Economic activity concerned with the processing of raw materials and manufacture of goods.",
       "example": "The tourism industry supports thousands of local businesses.",
       "exampleVi": "Ngành công nghiệp du lịch hỗ trợ hàng ngàn doanh nghiệp địa phương.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-022",
@@ -254,7 +283,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The activities associated with the governance of a country or other area.",
       "example": "He has a deep interest in international politics.",
       "exampleVi": "Anh ấy rất quan tâm đến nền chính trị quốc tế.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-023",
@@ -265,7 +295,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "To give a formal expression of choice in an election.",
       "example": "Citizens cast their vote to elect their representatives.",
       "exampleVi": "Các công dân đi bỏ phiếu để bầu ra người đại diện cho mình.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-024",
@@ -276,7 +307,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A formal and organized choice by vote of a person for a political office or other position.",
       "example": "The national election takes place every five years.",
       "exampleVi": "Cuộc bầu cử toàn quốc diễn ra năm năm một lần.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-025",
@@ -287,7 +319,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The person who leads or commands a group, organization, or country.",
       "example": "A great leader listens attentively to the voices of the people.",
       "exampleVi": "Một nhà lãnh đạo tuyệt vời luôn chăm chú lắng nghe tiếng nói của nhân dân.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-026",
@@ -298,7 +331,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Newly received or noteworthy information, especially about recent or important events.",
       "example": "I read the morning news over a cup of tea.",
       "exampleVi": "Tôi đọc tin tức buổi sáng bên tách trà.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-027",
@@ -309,7 +343,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The main means of mass communication regarded collectively.",
       "example": "Social media and news outlets inform the public.",
       "exampleVi": "Mạng xã hội và các hãng tin tức cung cấp thông tin cho công chúng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-028",
@@ -320,7 +355,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A person who writes for newspapers, magazines, or news websites or prepares news to be broadcast.",
       "example": "The brave journalist investigated environmental corruption.",
       "exampleVi": "Người nhà báo dũng cảm đã điều tra tình trạng tham nhũng về môi trường.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-029",
@@ -331,7 +367,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The people of a country or community as a whole.",
       "example": "Public parks are open for all residents to enjoy.",
       "exampleVi": "Các công viên công cộng mở cửa cho tất cả người dân đến vui chơi.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-030",
@@ -342,7 +379,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A thing that happens, especially one of importance.",
       "example": "The cultural exchange was an inspiring event.",
       "exampleVi": "Buổi giao lưu văn hóa là một sự kiện đầy cảm hứng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Văn hóa & Truyền thống"
     },
     {
       "id": "sw-031",
@@ -353,7 +391,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Of or relating to the whole world; worldwide.",
       "example": "Climate change is a pressing global challenge.",
       "exampleVi": "Biến đổi khí hậu là một thách thức toàn cầu cấp bách.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-032",
@@ -364,7 +403,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Existing, occurring, or carried on between two or more nations.",
       "example": "English is the primary language of international business.",
       "exampleVi": "Tiếng Anh là ngôn ngữ chính trong kinh doanh quốc tế.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-033",
@@ -375,7 +415,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A celestial body moving in an elliptical orbit around a star.",
       "example": "We only have one planet, so we must protect it.",
       "exampleVi": "Chúng ta chỉ có một hành tinh duy nhất, vì vậy chúng ta phải bảo vệ nó.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-034",
@@ -386,7 +427,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The planet on which we live; the world.",
       "example": "Earth is home to millions of distinct living species.",
       "exampleVi": "Trái Đất là mái nhà của hàng triệu loài sinh vật khác nhau.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-035",
@@ -397,7 +439,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The study of past events, particularly in human affairs.",
       "example": "Studying history provides valuable lessons for the future.",
       "exampleVi": "Học lịch sử mang lại những bài học quý giá cho tương lai.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-036",
@@ -408,7 +451,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The time or a period of time following the moment of speaking or writing.",
       "example": "Invest in education to build a brighter future.",
       "exampleVi": "Đầu tư vào giáo dục để xây dựng một tương lai tươi sáng hơn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-037",
@@ -419,7 +463,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "All of the people born and living at about the same time, regarded collectively.",
       "example": "The younger generation is deeply passionate about clean energy.",
       "exampleVi": "Thế hệ trẻ rất đam mê nhiệt huyết với năng lượng sạch.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-038",
@@ -430,7 +475,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A human being, especially a person as distinguished from other animals.",
       "example": "Compassion is a defining trait of human nature.",
       "exampleVi": "Lòng trắc ẩn là nét đặc trưng định hình nên bản chất con người.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-039",
@@ -441,7 +487,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "An organization set up to provide help and raise money for those in need.",
       "example": "They donated clothes and warm blankets to the local charity.",
       "exampleVi": "Họ đã quyên góp quần áo và chăn ấm cho tổ chức từ thiện địa phương.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-040",
@@ -452,7 +499,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "A person who freely offers to take part in an enterprise or undertake a task.",
       "example": "Volunteers planted one thousand trees along the riverbank.",
       "exampleVi": "Các tình nguyện viên đã trồng một ngàn cây xanh dọc bờ sông.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Tin tức & Truyền thông"
     },
     {
       "id": "sw-041",
@@ -463,7 +511,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The state of being extremely poor.",
       "example": "Quality education helps break the cycle of poverty.",
       "exampleVi": "Giáo dục chất lượng giúp phá vỡ vòng luẩn quẩn của sự nghèo đói.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-042",
@@ -474,7 +523,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The state of being equal, especially in status, rights, and opportunities.",
       "example": "Gender equality fosters fair workplaces.",
       "exampleVi": "Bình đẳng giới thúc đẩy môi trường làm việc công bằng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-043",
@@ -485,7 +535,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The condition of being protected from or unlikely to cause danger, risk, or injury.",
       "example": "Public safety is essential for thriving cities.",
       "exampleVi": "An toàn công cộng là điều thiết yếu cho các thành phố phát triển phồn vinh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-044",
@@ -496,7 +547,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The process of developing or being developed.",
       "example": "Sustainable urban development balances growth and nature.",
       "exampleVi": "Phát triển đô thị bền vững cân bằng giữa tăng trưởng và thiên nhiên.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-045",
@@ -507,7 +559,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Forward or onward movement toward a destination or goal.",
       "example": "Technological progress makes our lives more convenient.",
       "exampleVi": "Sự tiến bộ công nghệ giúp cuộc sống của chúng ta tiện lợi hơn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-046",
@@ -518,7 +571,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Human beings collectively; the human race.",
       "example": "Art and literature reflect the shared experiences of humanity.",
       "exampleVi": "Nghệ thuật và văn học phản ánh những trải nghiệm chung của toàn nhân loại.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-047",
@@ -529,7 +583,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Unity or agreement of feeling or action, especially among individuals with a common interest.",
       "example": "Community solidarity helps neighbors overcome natural disasters.",
       "exampleVi": "Tinh thần đoàn kết cộng đồng giúp bà con hàng xóm vượt qua thiên tai.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-048",
@@ -540,7 +595,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "Agreement or concord; peaceful coexistence.",
       "example": "Living in harmony with nature ensures a healthy planet.",
       "exampleVi": "Sống hòa hợp với thiên nhiên đảm bảo một hành tinh khỏe mạnh.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-049",
@@ -551,7 +607,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The state of being diverse; variety.",
       "example": "Cultural diversity enriches our community life.",
       "exampleVi": "Sự đa dạng văn hóa làm phong phú thêm đời sống cộng đồng chúng ta.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thế giới & Nhân loại"
     },
     {
       "id": "sw-050",
@@ -562,7 +619,8 @@ export const SOCIETY_WORLD_DECK = {
       "definition": "The process of being mentally stimulated to do or feel something, especially to do something creative.",
       "example": "Her courage and kindness are a true inspiration to all of us.",
       "exampleVi": "Lòng dũng cảm và sự tốt bụng của cô ấy là nguồn cảm hứng đích thực cho tất cả chúng ta.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thế giới & Nhân loại"
     }
   ]
 };

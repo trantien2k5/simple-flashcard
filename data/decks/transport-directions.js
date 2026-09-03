@@ -1,6 +1,7 @@
 /**
  * DECK: Giao thông & Đi lại
  * Giai đoạn 2 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const TRANSPORT_DIRECTIONS_DECK = {
@@ -12,6 +13,13 @@ export const TRANSPORT_DIRECTIONS_DECK = {
   "icon": "🚗",
   "color": "#06b6d4",
   "level": "A1 - B1",
+  "subcategories": [
+    "Phương tiện cá nhân",
+    "Phương tiện công cộng",
+    "Hỏi đường & Phương hướng",
+    "Hạ tầng giao thông",
+    "Hành trình di chuyển"
+  ],
   "targetCount": 200,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A thing used for transporting people or goods, especially on land.",
       "example": "Electric vehicles help reduce air pollution in cities.",
       "exampleVi": "Các phương tiện chạy điện giúp giảm thiểu ô nhiễm không khí trong các thành phố.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-002",
@@ -34,7 +43,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A four-wheeled road vehicle powered by an engine.",
       "example": "He drives his car to work every morning.",
       "exampleVi": "Anh ấy lái ô tô đi làm mỗi sáng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-003",
@@ -45,7 +55,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A large motor vehicle carrying passengers by road.",
       "example": "Take bus number 10 to reach the museum.",
       "exampleVi": "Bắt xe buýt số 10 để đến bảo tàng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-004",
@@ -56,7 +67,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A series of connected railway carriages or wagons moved by a locomotive.",
       "example": "The high-speed train travels at 300 km/h.",
       "exampleVi": "Chuyến tàu cao tốc chạy với vận tốc 300 km/h.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-005",
@@ -67,7 +79,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "An underground railway system in a city.",
       "example": "The subway is the fastest way to travel during rush hour.",
       "exampleVi": "Tàu điện ngầm là cách nhanh nhất để di chuyển trong giờ cao điểm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-006",
@@ -78,7 +91,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A motor vehicle licensed to transport passengers in return for payment of a fare.",
       "example": "Hail a taxi to get to the airport quickly.",
       "exampleVi": "Vẫy một chiếc taxi để ra sân bay cho nhanh nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-007",
@@ -89,7 +103,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A two-wheeled vehicle that is powered by a motor.",
       "example": "Motorcycles are popular for commuting in Southeast Asia.",
       "exampleVi": "Xe máy rất phổ biến để đi lại ở Đông Nam Á.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-008",
@@ -100,7 +115,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A vehicle composed of two wheels held in a frame one behind the other, propelled by pedals.",
       "example": "Cycling to work is great daily exercise.",
       "exampleVi": "Đi xe đạp đi làm là bài tập thể dục hằng ngày rất tốt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-009",
@@ -111,7 +127,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A powered flying vehicle with fixed wings.",
       "example": "Our plane landed safely on time.",
       "exampleVi": "Máy bay của chúng tôi đã hạ cánh an toàn đúng giờ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-010",
@@ -122,7 +139,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A small vessel for traveling on water.",
       "example": "We took a wooden boat across the river.",
       "exampleVi": "Chúng tôi đã đi một chiếc thuyền gỗ qua sông.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện cá nhân"
     },
     {
       "id": "td-011",
@@ -133,7 +151,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A place on a railway line or bus route where vehicles stop to allow passengers to get on and off.",
       "example": "Meet me outside the central train station.",
       "exampleVi": "Gặp tôi ở bên ngoài nhà ga trung tâm nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-012",
@@ -144,7 +163,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A designated place where buses stop for passengers to board or alight.",
       "example": "Wait for me at the bus stop across the street.",
       "exampleVi": "Hãy đợi tôi ở trạm dừng xe buýt đối diện bên kia đường.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-013",
@@ -155,7 +175,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A complex of runways and buildings for the takeoff, landing, and maintenance of civil aircraft.",
       "example": "Arrive at the airport two hours before departure.",
       "exampleVi": "Hãy đến sân bay hai tiếng trước giờ khởi hành.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-014",
@@ -166,7 +187,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A wide way leading from one place to another.",
       "example": "The mountain road is winding but scenic.",
       "exampleVi": "Con đường núi quanh co nhưng phong cảnh rất đẹp.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-015",
@@ -177,7 +199,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A public road in a city or town, typically with houses and buildings on one or both sides.",
       "example": "The street is lined with cozy coffee shops.",
       "exampleVi": "Con phố rợp bóng những quán cà phê ấm cúng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-016",
@@ -188,7 +211,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A main road, especially one connecting major towns or cities.",
       "example": "Driving on the highway cuts travel time in half.",
       "exampleVi": "Lái xe trên đường cao tốc giúp giảm một nửa thời gian di chuyển.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-017",
@@ -199,7 +223,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A structure carrying a road or path across a river or obstacle.",
       "example": "Walk across the pedestrian bridge to enjoy the river view.",
       "exampleVi": "Đi qua cây cầu đi bộ để thưởng ngoạn cảnh sông.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-018",
@@ -210,7 +235,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A point at which two or more roads intersect.",
       "example": "Turn left when you reach the next intersection.",
       "exampleVi": "Rẽ trái khi bạn đến ngã tư tiếp theo nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-019",
@@ -221,7 +247,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A set of automatically operated colored lights for controlling traffic.",
       "example": "Stop when the traffic light turns red.",
       "exampleVi": "Dừng lại khi đèn giao thông chuyển sang màu đỏ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-020",
@@ -232,7 +259,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A person walking along a road or in a developed area.",
       "example": "Drivers must yield the right of way to pedestrians.",
       "exampleVi": "Tài xế phải nhường đường cho người đi bộ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Phương tiện công cộng"
     },
     {
       "id": "td-021",
@@ -243,7 +271,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A paved path for pedestrians at the side of a road.",
       "example": "Walk safely on the sidewalk.",
       "exampleVi": "Hãy đi bộ an toàn trên vỉa hè.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-022",
@@ -254,7 +283,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A marked part of a road where pedestrians have right of way to cross.",
       "example": "Always use the crosswalk to cross busy streets.",
       "exampleVi": "Luôn sử dụng vạch sang đường khi qua những con phố đông đúc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-023",
@@ -265,7 +295,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A line or lines of stationary or very slow-moving traffic.",
       "example": "We were stuck in a heavy traffic jam for an hour.",
       "exampleVi": "Chúng tôi đã bị kẹt trong một vụ tắc đường nghiêm trọng suốt một tiếng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-024",
@@ -276,7 +307,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A time during each day when traffic is at its heaviest.",
       "example": "Avoid traveling during morning rush hour.",
       "exampleVi": "Hãy tránh di chuyển trong khung giờ cao điểm buổi sáng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-025",
@@ -287,7 +319,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A certificate or token showing that a fare or admission fee has been paid.",
       "example": "Show your train ticket to the inspector.",
       "exampleVi": "Xuất trình vé tàu của bạn cho người soát vé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-026",
@@ -298,7 +331,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "The money a passenger on public transportation has to pay.",
       "example": "The bus fare is two dollars per trip.",
       "exampleVi": "Giá vé xe buýt là hai đô la cho mỗi chuyến.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-027",
@@ -309,7 +343,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A traveler on a public or private conveyance other than the driver.",
       "example": "All passengers must fasten their seatbelts.",
       "exampleVi": "Tất cả hành khách phải thắt dây an toàn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-028",
@@ -320,7 +355,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A person who drives a vehicle.",
       "example": "The bus driver drove very smoothly and safely.",
       "exampleVi": "Bác tài xế xe buýt lái xe rất êm ái và an toàn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-029",
@@ -331,7 +367,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To operate and control the direction and speed of a motor vehicle.",
       "example": "She learned how to drive when she was eighteen.",
       "exampleVi": "Cô ấy đã học lái xe khi mười tám tuổi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-030",
@@ -342,7 +379,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To sit on and control the movement of a bicycle, motorcycle, or animal.",
       "example": "I like to ride my bicycle around the lake.",
       "exampleVi": "Tôi thích đạp xe quanh bờ hồ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hỏi đường & Phương hướng"
     },
     {
       "id": "td-031",
@@ -353,7 +391,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To get on or into a ship, aircraft, train, or other vehicle.",
       "example": "Passengers may now board the plane at gate seven.",
       "exampleVi": "Hành khách bây giờ có thể lên máy bay tại cửa số bảy.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-032",
@@ -364,7 +403,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To reach in time to board a vehicle.",
       "example": "Hurry up if you want to catch the 8:00 AM bus.",
       "exampleVi": "Nhanh lên nếu bạn muốn bắt kịp chuyến xe buýt lúc 8 giờ sáng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-033",
@@ -375,7 +415,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To fail to catch or reach a vehicle.",
       "example": "We woke up late and missed our connecting flight.",
       "exampleVi": "Chúng tôi thức dậy muộn và bị lỡ chuyến bay chuyển tiếp.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-034",
@@ -386,7 +427,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To change from one route or vehicle to another during a journey.",
       "example": "Transfer to Line 2 at Central Station.",
       "exampleVi": "Đổi sang Tuyến 2 tại Ga Trung tâm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-035",
@@ -397,7 +439,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To reach a destination at the end of a journey.",
       "example": "The express train will arrive in five minutes.",
       "exampleVi": "Chuyến tàu tốc hành sẽ đến nơi trong năm phút nữa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-036",
@@ -408,7 +451,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To leave, typically in order to start a journey.",
       "example": "Flight 204 departs at 10:30 AM.",
       "exampleVi": "Chuyến bay 204 sẽ khởi hành lúc 10:30 sáng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-037",
@@ -419,7 +463,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "The place to which someone or something is going.",
       "example": "We reached our beach destination after three hours of driving.",
       "exampleVi": "Chúng tôi đã đến điểm đến bãi biển sau ba tiếng lái xe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-038",
@@ -430,7 +475,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A way or course taken in getting from a starting point to a destination.",
       "example": "The GPS found a faster route with less traffic.",
       "exampleVi": "Hệ thống định vị đã tìm ra một tuyến đường nhanh hơn ít tắc xe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-039",
@@ -441,7 +487,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A diagrammatic representation of an area of land or sea.",
       "example": "Check the digital map to find the nearest bakery.",
       "exampleVi": "Xem bản đồ điện tử để tìm tiệm bánh gần nhất.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-040",
@@ -452,7 +499,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To change direction toward the left side.",
       "example": "Turn left after the post office.",
       "exampleVi": "Rẽ trái sau khi qua bưu điện nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hạ tầng giao thông"
     },
     {
       "id": "td-041",
@@ -463,7 +511,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To change direction toward the right side.",
       "example": "Turn right at the traffic lights.",
       "exampleVi": "Rẽ phải ở chỗ đèn giao thông.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-042",
@@ -474,7 +523,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To continue moving in the same forward direction.",
       "example": "Go straight for two blocks and the hotel will be on your right.",
       "exampleVi": "Đi thẳng qua hai dãy nhà và khách sạn sẽ ở bên tay phải bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-043",
@@ -485,7 +535,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A place where two streets meet.",
       "example": "There is a convenience store on the corner.",
       "exampleVi": "Có một cửa hàng tiện lợi ở ngay góc đường.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-044",
@@ -496,7 +547,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A sign giving information such as the direction and distance to a place.",
       "example": "Follow the signposts pointing toward City Center.",
       "exampleVi": "Hãy đi theo các biển chỉ dẫn hướng về phía Trung tâm Thành phố.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-045",
@@ -507,7 +559,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "The maximum speed at which a vehicle may legally travel.",
       "example": "The speed limit on this urban road is 50 km/h.",
       "exampleVi": "Giới hạn tốc độ trên đoạn đường đô thị này là 50 km/h.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-046",
@@ -518,7 +571,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "A belt securing a person to a seat in a car or aircraft.",
       "example": "Always buckle your seatbelt before driving.",
       "exampleVi": "Luôn thắt dây an toàn trước khi lái xe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-047",
@@ -529,7 +583,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To bring a vehicle that one is driving to a halt and leave it temporarily.",
       "example": "Where can I safely park my car?",
       "exampleVi": "Tôi có thể đỗ xe an toàn ở đâu?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-048",
@@ -540,7 +595,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "An area assigned for parking motor vehicles.",
       "example": "The shopping mall has a free underground parking lot.",
       "exampleVi": "Trung tâm thương mại có một bãi đỗ xe ngầm miễn phí.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-049",
@@ -551,7 +607,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To enter a bus, train, aircraft, or boat.",
       "example": "Get on the bus through the front door.",
       "exampleVi": "Lên xe buýt qua cửa trước nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     },
     {
       "id": "td-050",
@@ -562,7 +619,8 @@ export const TRANSPORT_DIRECTIONS_DECK = {
       "definition": "To leave a bus, train, aircraft, or boat.",
       "example": "Ring the bell before you get off at the next stop.",
       "exampleVi": "Bấm chuông trước khi bạn xuống ở điểm dừng tiếp theo.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Hành trình di chuyển"
     }
   ]
 };

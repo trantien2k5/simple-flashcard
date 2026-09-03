@@ -190,11 +190,27 @@ class FlashcardApp {
      TAB 2: CHỦ ĐỀ & TÌM KIẾM
      -------------------------------------------------------------------------- */
   renderDecksTab(filterCategory = 'all') {
+    const allDecks = this.deckManager.getAllDecks();
+
+    // Tự động cập nhật 3 thông số tổng quan: Chủ đề lớn, Chủ đề con, Từ vựng
+    const totalTopics = allDecks.length;
+    const totalSubtopics = allDecks.reduce((sum, d) => sum + (d.subcategories && d.subcategories.length ? d.subcategories.length : 1), 0);
+    const totalWords = allDecks.reduce((sum, d) => sum + (d.cards ? d.cards.length : 0), 0);
+
+    const taxTopicsEl = document.getElementById('tax-topics-count');
+    if (taxTopicsEl) taxTopicsEl.textContent = totalTopics;
+
+    const taxSubtopicsEl = document.getElementById('tax-subtopics-count');
+    if (taxSubtopicsEl) taxSubtopicsEl.textContent = totalSubtopics;
+
+    const taxWordsEl = document.getElementById('tax-words-count');
+    if (taxWordsEl) taxWordsEl.textContent = totalWords.toLocaleString('vi-VN');
+
     const container = document.getElementById('all-decks-container');
     if (!container) return;
     container.innerHTML = '';
 
-    let decks = this.deckManager.getAllDecks();
+    let decks = allDecks;
     if (filterCategory !== 'all') {
       decks = decks.filter(d => d.category === filterCategory || (filterCategory.startsWith('Phase') && d.phase === parseInt(filterCategory.replace('Phase', ''), 10)));
     }
@@ -228,6 +244,12 @@ class FlashcardApp {
               <span class="deck-count-pill">${deckStats.total} từ</span>
             </div>
             <p class="deck-description">${deck.description || ''}</p>
+            ${deck.subcategories && deck.subcategories.length ? `
+            <div class="deck-subtopics-preview">
+              <span>📂 ${deck.subcategories.length} chủ đề con:</span>
+              <span class="subtopics-list">${deck.subcategories.slice(0, 3).join(', ')}${deck.subcategories.length > 3 ? ` +${deck.subcategories.length - 3}` : ''}</span>
+            </div>
+            ` : ''}
           </div>
         </div>
         <div class="deck-progress-bar-bg">
@@ -676,13 +698,29 @@ class FlashcardApp {
     document.getElementById('btn-study-this-deck').onclick = () => {
       if (!this.currentPreviewDeckId) return;
       previewModal.classList.remove('active');
+
+      const allDeckCards = this.deckManager.getCardsByDeckId(this.currentPreviewDeckId);
+      const isSubtopic = this.currentPreviewSubtopic && this.currentPreviewSubtopic !== 'all';
+      
+      let targetCards = isSubtopic
+        ? allDeckCards.filter(c => c.subtopic === this.currentPreviewSubtopic)
+        : allDeckCards;
+
       const queue = this.deckManager.getStudyQueue(this.currentPreviewDeckId, this.settings);
-      if (queue.queue.length === 0) {
-        // Cho phép ôn tập lại toàn bộ thẻ trong deck nếu không có thẻ đến hạn
-        const allDeckCards = this.deckManager.getCardsByDeckId(this.currentPreviewDeckId);
-        this.startStudySession(allDeckCards);
+
+      if (isSubtopic) {
+        const subQueue = queue.queue.filter(c => c.subtopic === this.currentPreviewSubtopic);
+        if (subQueue.length > 0) {
+          this.startStudySession(subQueue);
+        } else {
+          this.startStudySession(targetCards);
+        }
       } else {
-        this.startStudySession(queue.queue);
+        if (queue.queue.length === 0) {
+          this.startStudySession(allDeckCards);
+        } else {
+          this.startStudySession(queue.queue);
+        }
       }
     };
 
@@ -725,40 +763,91 @@ class FlashcardApp {
 
   openDeckPreview(deckId) {
     this.currentPreviewDeckId = deckId;
+    this.currentPreviewSubtopic = 'all';
+
     const deck = this.deckManager.getDeckById(deckId);
     if (!deck) return;
 
     const cards = this.deckManager.getCardsByDeckId(deckId);
     const cardStates = StorageManager.getAllCardStates();
 
-    document.getElementById('modal-deck-title').textContent = `${deck.title} (${cards.length} từ)`;
+    document.getElementById('modal-deck-title').textContent = `${deck.icon || '📚'} ${deck.title}`;
+    const subContainer = document.getElementById('modal-subtopics-container');
     const listContainer = document.getElementById('modal-deck-cards-list');
-    listContainer.innerHTML = '';
+    const counterEl = document.getElementById('modal-cards-counter');
+    const btnStudy = document.getElementById('btn-study-this-deck');
 
-    cards.forEach(card => {
-      const state = cardStates[card.id];
-      let stateBadge = '<span class="badge-tag">Mới</span>';
-      if (state && state.state === State.Review) {
-        stateBadge = `<span class="badge-tag" style="background: rgba(16,185,129,0.15); color: #10b981;">Đã nhớ (S: ${state.stability?.toFixed(1)}d)</span>`;
-      } else if (state && (state.state === State.Learning || state.state === State.Relearning)) {
-        stateBadge = '<span class="badge-tag" style="background: rgba(245,158,11,0.15); color: #f59e0b;">Đang học</span>';
+    // 1. Render Subtopics Filter Chips
+    if (subContainer) {
+      subContainer.innerHTML = '';
+      const subcategories = deck.subcategories || [];
+
+      // Chip Tất cả
+      const allChip = document.createElement('button');
+      allChip.className = 'subtopic-chip active';
+      allChip.innerHTML = `<span>⭐ Tất cả</span> <span class="chip-count">${cards.length}</span>`;
+      allChip.onclick = () => selectSubtopic('all', allChip);
+      subContainer.appendChild(allChip);
+
+      subcategories.forEach(sub => {
+        const subCount = cards.filter(c => c.subtopic === sub).length;
+        const chip = document.createElement('button');
+        chip.className = 'subtopic-chip';
+        chip.innerHTML = `<span>${sub}</span> <span class="chip-count">${subCount}</span>`;
+        chip.onclick = () => selectSubtopic(sub, chip);
+        subContainer.appendChild(chip);
+      });
+    }
+
+    // 2. Hàm lọc và render danh sách từ
+    const renderCardList = (filterSub) => {
+      listContainer.innerHTML = '';
+      const filtered = filterSub === 'all' ? cards : cards.filter(c => c.subtopic === filterSub);
+
+      if (counterEl) {
+        counterEl.textContent = `Hiển thị: ${filtered.length}/${cards.length} từ`;
+      }
+      if (btnStudy) {
+        btnStudy.textContent = filterSub === 'all' 
+          ? `Học cả bộ (${cards.length} từ) 🚀` 
+          : `Học "${filterSub}" (${filtered.length} từ) 🚀`;
       }
 
-      const item = document.createElement('div');
-      item.className = 'preview-card-item';
-      item.innerHTML = `
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-          <div>
-            <strong style="font-size: 1rem; color: var(--text-primary);">${card.word}</strong>
-            <span style="color: #0284c7; font-family: var(--font-mono); font-size: 0.85rem; margin-left: 6px; font-weight: 600;">${card.phonetic || ''}</span>
-          </div>
-          ${stateBadge}
-        </div>
-        <div style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 500;">${card.meaning || ''}</div>
-      `;
-      listContainer.appendChild(item);
-    });
+      filtered.forEach(card => {
+        const state = cardStates[card.id];
+        let stateBadge = '<span class="badge-tag">Mới</span>';
+        if (state && state.state === State.Review) {
+          stateBadge = `<span class="badge-tag" style="background: rgba(16,185,129,0.15); color: #10b981;">Đã nhớ (S: ${state.stability?.toFixed(1)}d)</span>`;
+        } else if (state && (state.state === State.Learning || state.state === State.Relearning)) {
+          stateBadge = '<span class="badge-tag" style="background: rgba(245,158,11,0.15); color: #f59e0b;">Đang học</span>';
+        }
 
+        const item = document.createElement('div');
+        item.className = 'preview-card-item';
+        item.innerHTML = `
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+              <strong style="font-size: 1rem; color: var(--text-primary);">${card.word}</strong>
+              <span style="color: #0284c7; font-family: var(--font-mono); font-size: 0.85rem; font-weight: 600;">${card.phonetic || ''}</span>
+              ${card.subtopic ? `<span class="badge-tag subtopic">${card.subtopic}</span>` : ''}
+            </div>
+            ${stateBadge}
+          </div>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); font-weight: 500;">${card.meaning || ''}</div>
+        `;
+        listContainer.appendChild(item);
+      });
+    };
+
+    const selectSubtopic = (sub, activeChipEl) => {
+      this.currentPreviewSubtopic = sub;
+      const chips = subContainer.querySelectorAll('.subtopic-chip');
+      chips.forEach(c => c.classList.remove('active'));
+      activeChipEl.classList.add('active');
+      renderCardList(sub);
+    };
+
+    renderCardList('all');
     document.getElementById('deck-preview-modal').classList.add('active');
   }
 

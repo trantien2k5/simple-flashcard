@@ -1,6 +1,7 @@
 /**
  * DECK: Giải trí & Sở thích
  * Giai đoạn 3 (A2 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const ENTERTAINMENT_HOBBIES_DECK = {
@@ -12,6 +13,13 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
   "icon": "🎮",
   "color": "#a855f7",
   "level": "A2 - B1",
+  "subcategories": [
+    "Âm nhạc & Nhạc cụ",
+    "Phim ảnh & Kịch",
+    "Thể thao & Rèn luyện",
+    "Trò chơi & Giải trí",
+    "Sở thích sáng tạo"
+  ],
   "targetCount": 250,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "An activity done regularly in one's leisure time for pleasure.",
       "example": "Photography is my favorite creative hobby.",
       "exampleVi": "Nhiếp ảnh là sở thích sáng tạo mà tôi yêu thích nhất.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-002",
@@ -34,7 +43,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Time when one is not working or occupied; free time.",
       "example": "What do you like to do in your leisure hours?",
       "exampleVi": "Bạn thích làm gì vào những giờ giải trí rảnh rỗi?",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-003",
@@ -45,7 +55,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The action of providing or being provided with amusement or enjoyment.",
       "example": "The festival offers great musical entertainment for all ages.",
       "exampleVi": "Lễ hội mang đến các tiết mục giải trí âm nhạc tuyệt vời cho mọi lứa tuổi.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-004",
@@ -56,7 +67,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Vocal or instrumental sounds combined in such a way as to produce beauty of form, harmony, and expression of emotion.",
       "example": "Listening to soft acoustic music helps me focus.",
       "exampleVi": "Nghe nhạc mộc êm dịu giúp tôi tập trung.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-005",
@@ -67,7 +79,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A short poem or other set of words set to music or meant to be sung.",
       "example": "This melody is my favorite song of the year.",
       "exampleVi": "Giai điệu này là bài hát yêu thích nhất trong năm của tôi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-006",
@@ -78,7 +91,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "An object or device for producing musical sounds.",
       "example": "Can you play any musical instruments, like the piano?",
       "exampleVi": "Bạn có chơi được nhạc cụ nào không, chẳng hạn như đàn piano?",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-007",
@@ -89,7 +103,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A stringed musical instrument, with a fretted fingerboard, typically incurved sides, and six or twelve strings.",
       "example": "He learned to play acoustic guitar when he was fifteen.",
       "exampleVi": "Anh ấy đã học chơi đàn ghi-ta mộc khi mười lăm tuổi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-008",
@@ -100,7 +115,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A large musical instrument with a row of black and white keys.",
       "example": "She plays classical piano pieces with great elegance.",
       "exampleVi": "Cô ấy chơi những bản nhạc piano cổ điển rất thanh nhã.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-009",
@@ -111,7 +127,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The activity of performing songs or tunes by producing musical sounds with the voice.",
       "example": "Singing in the shower is a great stress reliever.",
       "exampleVi": "Hát khi đang tắm là cách giải tỏa căng thẳng rất tốt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-010",
@@ -122,7 +139,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A musical performance given in public, typically by several performers or of several separate compositions.",
       "example": "We attended an electrifying live rock concert.",
       "exampleVi": "Chúng tôi đã tham dự một buổi hòa nhạc rock sống động bùng nổ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Âm nhạc & Nhạc cụ"
     },
     {
       "id": "eh-011",
@@ -133,7 +151,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A motion picture; a film.",
       "example": "Let's watch a comedy movie together this weekend.",
       "exampleVi": "Hãy cùng xem một bộ phim hài cuối tuần này nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-012",
@@ -144,7 +163,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A movie theater.",
       "example": "Popcorn and a cold drink make going to the cinema fun.",
       "exampleVi": "Bắp rang bơ và đồ uống lạnh làm cho việc đi xem phim ở rạp thêm phần thú vị.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-013",
@@ -155,7 +175,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Professional entertainment consisting of jokes and satirical sketches, intended to make an audience laugh.",
       "example": "A good comedy always lifts your spirits.",
       "exampleVi": "Một bộ phim hài hay luôn nâng cao tinh thần của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-014",
@@ -166,7 +187,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A play for theater, radio, or television, or in film involving conflict of characters.",
       "example": "The historical drama won several international awards.",
       "exampleVi": "Bộ phim chính kịch lịch sử đã đoạt nhiều giải thưởng quốc tế.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-015",
@@ -177,7 +199,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A genre of film featuring fast-paced sequences, stunts, and fights.",
       "example": "Action movies with great choreography are thrilling to watch.",
       "exampleVi": "Những bộ phim hành động với màn dàn dựng đẹp mắt xem rất lôi cuốn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-016",
@@ -188,7 +211,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "An intense feeling of fear, shock, or disgust, or a genre intended to cause this.",
       "example": "I cannot watch horror movies alone in the dark.",
       "exampleVi": "Tôi không thể xem phim kinh dị một mình trong bóng tối.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-017",
@@ -199,7 +223,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The technique of photographing successive drawings or positions of models to create an illusion of movement.",
       "example": "Modern 3D animation creates breathtaking visual worlds.",
       "exampleVi": "Hoạt hình 3D hiện đại tạo ra những thế giới hình ảnh ngoạn mục.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-018",
@@ -210,7 +235,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A fictitious prose narrative of book length, typically representing character and action.",
       "example": "I finished reading an engaging mystery novel.",
       "exampleVi": "Tôi đã đọc xong một cuốn tiểu thuyết trinh thám lôi cuốn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-019",
@@ -221,7 +247,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The action or skill of reading written or printed matter.",
       "example": "Daily reading expands both mind and vocabulary.",
       "exampleVi": "Đọc sách hằng ngày mở rộng cả tư duy lẫn vốn từ vựng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-020",
@@ -232,7 +259,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A game played by electronically manipulating images produced by a computer program.",
       "example": "He plays cooperative video games with his friends online.",
       "exampleVi": "Anh ấy chơi trò chơi điện tử phối hợp với bạn bè qua mạng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phim ảnh & Kịch"
     },
     {
       "id": "eh-021",
@@ -243,7 +271,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Any game played on a board, often using dice and small pieces.",
       "example": "Chess is an ancient strategic board game.",
       "exampleVi": "Cờ vua là một trò chơi cờ bàn chiến thuật lâu đời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-022",
@@ -254,7 +283,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "An activity involving physical exertion and skill in which an individual or team competes against another.",
       "example": "Playing sports keeps both body and mind sharp.",
       "exampleVi": "Chơi thể thao giúp cả thể chất lẫn tinh thần luôn minh mẫn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-023",
@@ -265,7 +295,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A team game played with a spherical ball that may not be touched with the hands.",
       "example": "Football is the most popular sport on the planet.",
       "exampleVi": "Bóng đá là môn thể thao phổ biến nhất trên hành tinh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-024",
@@ -276,7 +307,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A game played between two teams of five players in which goals are scored by throwing a ball through an elevated hoop.",
       "example": "He plays basketball on the neighborhood court every Saturday.",
       "exampleVi": "Anh ấy chơi bóng rổ ở sân bóng trong xóm vào mỗi thứ Bảy.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-025",
@@ -287,7 +319,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The sport or activity of propelling oneself through water using the limbs.",
       "example": "Swimming is an excellent full-body cardio workout.",
       "exampleVi": "Bơi lội là bài tập cardio toàn thân rất tuyệt vời.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-026",
@@ -298,7 +331,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The action or movement of a runner.",
       "example": "Morning running energizes me for the entire day.",
       "exampleVi": "Chạy bộ buổi sáng tiếp thêm năng lượng cho tôi suốt cả ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-027",
@@ -309,7 +343,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A Hindu spiritual and ascetic discipline including breath control, meditation, and postures.",
       "example": "Practicing yoga improves flexibility and reduces anxiety.",
       "exampleVi": "Tập yoga giúp tăng cường độ dẻo dai và giảm bớt lo âu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-028",
@@ -320,7 +355,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A membership facility equipped with weights and machines for physical exercise.",
       "example": "He goes to the gym three times a week.",
       "exampleVi": "Anh ấy đến phòng tập gym ba lần mỗi tuần.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-029",
@@ -331,7 +367,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A session of vigorous physical exercise or training.",
       "example": "A quick thirty-minute workout boosts metabolism.",
       "exampleVi": "Một buổi tập luyện ba mươi phút giúp thúc đẩy trao đổi chất.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-030",
@@ -342,7 +379,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "To move rhythmically to music, typically following a set sequence of steps.",
       "example": "She loves to dance salsa on Friday nights.",
       "exampleVi": "Cô ấy rất thích nhảy điệu salsa vào các tối thứ Sáu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể thao & Rèn luyện"
     },
     {
       "id": "eh-031",
@@ -353,7 +391,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The art or practice of taking and processing photographs.",
       "example": "Landscape photography requires both patience and early mornings.",
       "exampleVi": "Nhiếp ảnh phong cảnh đòi hỏi cả sự kiên nhẫn và việc dậy sớm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-032",
@@ -364,7 +403,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The process or art of using paint, in a picture, as a protective coating, or as decoration.",
       "example": "She hung her watercolor painting in the living room.",
       "exampleVi": "Cô ấy đã treo bức tranh màu nước của mình trong phòng khách.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-033",
@@ -375,7 +415,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A picture or diagram made with a pencil, pen, or crayon rather than paint.",
       "example": "He made a quick pencil drawing of the historic cathedral.",
       "exampleVi": "Anh ấy đã vẽ phác thảo bằng bút chì hình ảnh nhà thờ lịch sử.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-034",
@@ -386,7 +427,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The practice or skill of preparing food by combining, mixing, and heating ingredients.",
       "example": "Home cooking is both healthy and deeply rewarding.",
       "exampleVi": "Tự nấu ăn tại nhà vừa lành mạnh vừa mang lại cảm giác thỏa mãn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-035",
@@ -397,7 +439,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The activity of tending and cultivating a garden.",
       "example": "Gardening connects you with nature and relieves stress.",
       "exampleVi": "Làm vườn giúp bạn hòa mình với thiên nhiên và xua tan căng thẳng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-036",
@@ -408,7 +451,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The activity of going for long walks, especially across country or in mountains.",
       "example": "We packed water and trail mix for our forest hiking trip.",
       "exampleVi": "Chúng tôi đã chuẩn bị nước và hạt dinh dưỡng cho chuyến đi bộ đường dài trong rừng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-037",
@@ -419,7 +463,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The activity of spending a vacation living in a tent.",
       "example": "Camping under a starlit sky is an unforgettable experience.",
       "exampleVi": "Cắm trại dưới bầu trời đầy sao là một trải nghiệm khó quên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-038",
@@ -430,7 +475,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The activity of catching fish, either for food or as a sport.",
       "example": "Fishing by the calm lake teaches great patience.",
       "exampleVi": "Câu cá bên bờ hồ êm ả rèn luyện tính kiên nhẫn tuyệt vời.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-039",
@@ -441,7 +487,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A social gathering of invited guests, typically involving eating, drinking, and entertainment.",
       "example": "We threw a surprise party for his promotion.",
       "exampleVi": "Chúng tôi đã tổ chức một bữa tiệc bất ngờ mừng anh ấy thăng chức.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-040",
@@ -452,7 +499,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "A day or period of celebration, typically a religious or cultural one.",
       "example": "The lantern festival lit up the entire riverbank.",
       "exampleVi": "Lễ hội thả đèn lồng đã thắp sáng toàn bộ bờ sông.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Trò chơi & Giải trí"
     },
     {
       "id": "eh-041",
@@ -463,7 +511,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Enjoyment, amusement, or lighthearted pleasure.",
       "example": "We had so much fun at the amusement park.",
       "exampleVi": "Chúng tôi đã có rất nhiều niềm vui tại công viên giải trí.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-042",
@@ -474,7 +523,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "To rest from work or engage in an enjoyable activity so as to become less tired.",
       "example": "Listen to ocean sounds to relax your mind.",
       "exampleVi": "Nghe âm thanh sóng biển để thư giãn tâm trí.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-043",
@@ -485,7 +535,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "To take delight or pleasure in an activity.",
       "example": "Enjoy every moment of your weekend getaway.",
       "exampleVi": "Hãy tận hưởng từng khoảnh khắc trong kỳ nghỉ cuối tuần của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-044",
@@ -496,7 +547,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Causing great enthusiasm and eagerness.",
       "example": "The football final was an exciting match right to the last second.",
       "exampleVi": "Trận chung kết bóng đá là một trận đấu gay cấn đến tận giây cuối cùng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-045",
@@ -507,7 +559,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Not interesting; tedious.",
       "example": "The speech was long and quite boring.",
       "exampleVi": "Bài phát biểu quá dài và khá nhàm chán.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-046",
@@ -518,7 +571,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Relating to or involving the imagination or original ideas.",
       "example": "Writing poetry is a wonderfully creative outlet.",
       "exampleVi": "Làm thơ là một hình thức bộc lộ sự sáng tạo tuyệt vời.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-047",
@@ -529,7 +583,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Strong and barely controllable emotion or great enthusiasm for something.",
       "example": "His passion for music inspired everyone around him.",
       "exampleVi": "Niềm đam mê âm nhạc của anh ấy đã truyền cảm hứng cho tất cả mọi người xung quanh.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-048",
@@ -540,7 +595,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "The assembled spectators or listeners at a public event.",
       "example": "The audience gave a standing ovation at the end.",
       "exampleVi": "Khán giả đã đứng dậy vỗ tay nhiệt liệt ở phần kết màn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-049",
@@ -551,7 +607,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "An act of staging or presenting a play, concert, or other form of entertainment.",
       "example": "The dancers delivered a flawless stage performance.",
       "exampleVi": "Các vũ công đã mang lại một màn trình diễn sân khấu hoàn hảo.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Sở thích sáng tạo"
     },
     {
       "id": "eh-050",
@@ -562,7 +619,8 @@ export const ENTERTAINMENT_HOBBIES_DECK = {
       "definition": "Having or showing intense and eager enjoyment or interest.",
       "example": "The audience was enthusiastic and clapped along.",
       "exampleVi": "Khán giả rất hào hứng và vỗ tay theo điệu nhạc.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Sở thích sáng tạo"
     }
   ]
 };

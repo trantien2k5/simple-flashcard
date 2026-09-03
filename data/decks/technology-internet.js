@@ -1,6 +1,7 @@
 /**
  * DECK: Công nghệ & Internet
  * Giai đoạn 3 (A2 - B2) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const TECHNOLOGY_INTERNET_DECK = {
@@ -12,6 +13,13 @@ export const TECHNOLOGY_INTERNET_DECK = {
   "icon": "💻",
   "color": "#0284c7",
   "level": "A2 - B2",
+  "subcategories": [
+    "Thiết bị & Máy tính",
+    "Internet & Mạng web",
+    "Phần mềm & Ứng dụng",
+    "Bảo mật & Dữ liệu",
+    "Công nghệ số & AI"
+  ],
   "targetCount": 300,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The application of scientific knowledge for practical purposes, especially in industry.",
       "example": "Modern technology has revolutionized everyday communication.",
       "exampleVi": "Công nghệ hiện đại đã cách mạng hóa giao tiếp hằng ngày.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-002",
@@ -34,7 +43,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "An electronic device for storing and processing data.",
       "example": "I use my desktop computer for software coding.",
       "exampleVi": "Tôi sử dụng máy tính để bàn để lập trình phần mềm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-003",
@@ -45,7 +55,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A computer that is portable and suitable for use while traveling.",
       "example": "She brought her laptop to work from the cafe.",
       "exampleVi": "Cô ấy đã mang laptop theo để làm việc tại quán cà phê.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-004",
@@ -56,7 +67,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A portable computer that has a touchscreen.",
       "example": "Reading digital books on a tablet is very convenient.",
       "exampleVi": "Đọc sách điện tử trên máy tính bảng rất thuận tiện.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-005",
@@ -67,7 +79,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A cellular phone that performs many of the functions of a computer.",
       "example": "Keep your smartphone charged for daily navigation.",
       "exampleVi": "Hãy sạc đầy điện thoại thông minh để tiện điều hướng hằng ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-006",
@@ -78,7 +91,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A flat panel or area on an electronic device on which images, data, or other information is displayed.",
       "example": "Lower the screen brightness in dark rooms to protect your eyes.",
       "exampleVi": "Giảm độ sáng màn hình trong phòng tối để bảo vệ mắt.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-007",
@@ -89,7 +103,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A panel of keys that operate a computer or typewriter.",
       "example": "A mechanical keyboard provides a satisfying typing feel.",
       "exampleVi": "Bàn phím cơ mang lại cảm giác gõ phím rất êm ái.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-008",
@@ -100,7 +115,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A handheld device which controls the coordinates of a cursor on a screen.",
       "example": "A wireless ergonomic mouse prevents wrist strain.",
       "exampleVi": "Chuột công thái học không dây giúp chống mỏi cổ tay.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-009",
@@ -111,7 +127,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A device for charging a battery.",
       "example": "Don't forget to pack your universal phone charger.",
       "exampleVi": "Đừng quên đóng gói củ sạc điện thoại đa năng của bạn nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-010",
@@ -122,7 +139,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A thick rope of wire or nonmetallic fiber, typically used for transmitting electricity or telecommunication signals.",
       "example": "Connect your device using the USB-C cable.",
       "exampleVi": "Kết nối thiết bị của bạn bằng dây cáp USB-C.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thiết bị & Máy tính"
     },
     {
       "id": "ti-011",
@@ -133,7 +151,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A container consisting of one or more cells in which chemical energy is converted into electricity.",
       "example": "This laptop has an all-day twelve-hour battery life.",
       "exampleVi": "Chiếc laptop này có thời lượng pin cả ngày lên đến mười hai tiếng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-012",
@@ -144,7 +163,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The machines, wiring, and other physical components of a computer or other electronic system.",
       "example": "Upgrade your hardware for faster 3D rendering.",
       "exampleVi": "Nâng cấp phần cứng của bạn để dựng hình 3D nhanh hơn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-013",
@@ -155,7 +175,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The programs and other operating information used by a computer.",
       "example": "Install antivirus software to protect your system.",
       "exampleVi": "Cài đặt phần mềm diệt virus để bảo vệ hệ thống của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-014",
@@ -166,7 +187,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A program or piece of software designed to fulfill a particular purpose.",
       "example": "This language application helps you memorize vocabulary fast.",
       "exampleVi": "Ứng dụng ngôn ngữ này giúp bạn ghi nhớ từ vựng nhanh chóng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-015",
@@ -177,7 +199,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A series of coded software instructions to control the operation of a computer.",
       "example": "He wrote a computer program that automates data backups.",
       "exampleVi": "Anh ấy đã viết một chương trình máy tính tự động hóa việc sao lưu dữ liệu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-016",
@@ -188,7 +211,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A global computer network providing a variety of information and communication facilities.",
       "example": "The internet enables instant global communication.",
       "exampleVi": "Mạng internet giúp kết nối giao tiếp toàn cầu tức thì.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-017",
@@ -199,7 +223,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A set of related web pages located under a single domain name.",
       "example": "Bookmark this educational website for future reference.",
       "exampleVi": "Lưu dấu trang web giáo dục này để tham khảo sau này.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-018",
@@ -210,7 +235,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A computer program with a graphical user interface for displaying and navigating between web pages.",
       "example": "Chrome and Safari are popular web browsers.",
       "exampleVi": "Chrome và Safari là những trình duyệt web phổ biến.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-019",
@@ -221,7 +247,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A program that searches for and identifies items in a database.",
       "example": "Use a search engine to research your essay topic.",
       "exampleVi": "Sử dụng công cụ tìm kiếm để tra cứu đề tài bài luận của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-020",
@@ -232,7 +259,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A reference in a hypertext document to another document or other resource.",
       "example": "Click on the verification link sent to your email.",
       "exampleVi": "Bấm vào đường link xác thực được gửi đến email của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Internet & Mạng web"
     },
     {
       "id": "ti-021",
@@ -243,7 +271,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To press a mouse button to select something on a screen.",
       "example": "Double-click the icon to launch the software.",
       "exampleVi": "Nhấp đúp vào biểu tượng để khởi chạy phần mềm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-022",
@@ -254,7 +283,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To copy data from one computer system to another, typically over the internet.",
       "example": "Download the study material before your class starts.",
       "exampleVi": "Tải tài liệu học tập xuống trước khi buổi học bắt đầu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-023",
@@ -265,7 +295,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To transfer data from one computer to another, typically to a larger computer or server.",
       "example": "Upload your completed assignment to the student portal.",
       "exampleVi": "Tải bài tập đã hoàn thành lên cổng thông tin sinh viên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-024",
@@ -276,7 +307,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To place or fix software in position in a computer.",
       "example": "Install the latest app update for new features.",
       "exampleVi": "Cài đặt bản cập nhật ứng dụng mới nhất để có thêm tính năng mới.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-025",
@@ -287,7 +319,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To make something more modern or suitable for use now by adding new information or features.",
       "example": "Regularly update your operating system for security.",
       "exampleVi": "Thường xuyên cập nhật hệ điều hành để đảm bảo an ninh.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-026",
@@ -298,7 +331,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "Controlled by or connected to another computer or to a network.",
       "example": "You can attend the webinar online from anywhere.",
       "exampleVi": "Bạn có thể tham dự buổi hội thảo trực tuyến từ bất cứ đâu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-027",
@@ -309,7 +343,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "Not connected to a computer network or the internet.",
       "example": "You can still review downloaded flashcards offline.",
       "exampleVi": "Bạn vẫn có thể ôn tập các thẻ flashcard đã tải xuống khi ngoại tuyến.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-028",
@@ -320,7 +355,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To join together so as to provide access and communication.",
       "example": "Connect your laptop to the high-speed office WiFi.",
       "exampleVi": "Kết nối laptop của bạn với mạng WiFi tốc độ cao của văn phòng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-029",
@@ -331,7 +367,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A facility allowing computers, smartphones, or other devices to connect to the internet or communicate with one another wirelessly.",
       "example": "What is the password for the cafe WiFi?",
       "exampleVi": "Mật khẩu cho mạng WiFi quán cà phê là gì vậy?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-030",
@@ -342,7 +379,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A group or system of interconnected people or things, especially computers.",
       "example": "The enterprise network is monitored twenty-four hours a day.",
       "exampleVi": "Mạng lưới doanh nghiệp được giám sát suốt hai mươi tư giờ mỗi ngày.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Phần mềm & Ứng dụng"
     },
     {
       "id": "ti-031",
@@ -353,7 +391,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "Facts and statistics collected together for reference or analysis; quantities or characters operated on by computer.",
       "example": "Encrypt your sensitive data before uploading.",
       "exampleVi": "Hãy mã hóa dữ liệu nhạy cảm của bạn trước khi tải lên.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-032",
@@ -364,7 +403,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A collection of data, information, or settings stored on a computer.",
       "example": "Save the document file in your personal folder.",
       "exampleVi": "Lưu tập tin tài liệu vào thư mục cá nhân của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-033",
@@ -375,7 +415,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A digital directory containing computer files.",
       "example": "Create a new folder to organize your study notes.",
       "exampleVi": "Tạo một thư mục mới để sắp xếp các ghi chép học tập của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-034",
@@ -386,7 +427,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A network of remote servers hosted on the internet to store, manage, and process data.",
       "example": "Sync your photos to the cloud for automatic backup.",
       "exampleVi": "Đồng bộ ảnh của bạn lên đám mây để tự động sao lưu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-035",
@@ -397,7 +439,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A structured set of data held in a computer, especially one that is accessible in various ways.",
       "example": "The vocabulary database contains thousands of words.",
       "exampleVi": "Cơ sở dữ liệu từ vựng chứa hàng nghìn từ.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-036",
@@ -408,7 +451,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "An arrangement by which a person uses the services of a network or website.",
       "example": "Log in to your student account to see your scores.",
       "exampleVi": "Đăng nhập vào tài khoản học sinh để xem điểm thi của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-037",
@@ -419,7 +463,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A secret word or phrase that must be used to gain admission to a system.",
       "example": "Use a strong password combining letters, numbers, and symbols.",
       "exampleVi": "Sử dụng mật khẩu mạnh kết hợp chữ cái, chữ số và ký hiệu.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-038",
@@ -430,7 +475,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The state of being free from danger or threat, especially protection of computer systems.",
       "example": "Two-factor authentication enhances account security.",
       "exampleVi": "Xác thực hai yếu tố giúp tăng cường an ninh tài khoản.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-039",
@@ -441,7 +487,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The state or condition of being free from being observed or disturbed by other people.",
       "example": "Adjust your app settings to protect your personal privacy.",
       "exampleVi": "Điều chỉnh cài đặt ứng dụng để bảo vệ quyền riêng tư cá nhân của bạn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-040",
@@ -452,7 +499,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A piece of code which is capable of copying itself and typically has a detrimental effect.",
       "example": "Never open suspicious email attachments that might carry a virus.",
       "exampleVi": "Không bao giờ mở các tệp đính kèm email đáng ngờ có thể chứa virus.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Bảo mật & Dữ liệu"
     },
     {
       "id": "ti-041",
@@ -463,7 +511,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "Expressed in numerical form, especially for use by a computer.",
       "example": "Digital technology transformed the global education landscape.",
       "exampleVi": "Công nghệ kỹ thuật số đã chuyển đổi diện mạo giáo dục toàn cầu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-042",
@@ -474,7 +523,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The theory and development of computer systems able to perform tasks normally requiring human intelligence.",
       "example": "Artificial intelligence accelerates automated language translation.",
       "exampleVi": "Trí tuệ nhân tạo giúp đẩy nhanh quá trình dịch thuật ngôn ngữ tự động.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-043",
@@ -485,7 +535,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A thing made or adapted for a particular purpose, especially a piece of mechanical or electronic equipment.",
       "example": "You can sync your progress across multiple devices.",
       "exampleVi": "Bạn có thể đồng bộ hóa tiến độ của mình trên nhiều thiết bị.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-044",
@@ -496,7 +547,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "Websites and applications that enable users to create and share content or to participate in social networking.",
       "example": "Limit your daily time spent on social media.",
       "exampleVi": "Hãy giới hạn thời gian lướt mạng xã hội mỗi ngày.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-045",
@@ -507,7 +559,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To remove or obliterate written or printed matter or computer data.",
       "example": "Delete unnecessary files to free up disk space.",
       "exampleVi": "Xóa các tệp không cần thiết để giải phóng dung lượng đĩa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-046",
@@ -518,7 +571,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "To start a computer or system again.",
       "example": "Restart your device after installing the system upgrade.",
       "exampleVi": "Khởi động lại thiết bị sau khi cài đặt nâng cấp hệ thống.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-047",
@@ -529,7 +583,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A message or alert displayed by an app on a screen.",
       "example": "You will receive a notification when your daily flashcard review is due.",
       "exampleVi": "Bạn sẽ nhận được thông báo khi đến hạn ôn tập thẻ từ vựng hằng ngày.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-048",
@@ -540,7 +595,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A verbal, written, or recorded communication sent from one person to another.",
       "example": "Send me a text message when you arrive.",
       "exampleVi": "Gửi cho tôi một tin nhắn văn bản khi bạn đến nơi nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-049",
@@ -551,7 +607,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "The controls that govern the operational parameters of an app or operating system.",
       "example": "Change the app theme in the profile settings menu.",
       "exampleVi": "Thay đổi giao diện ứng dụng trong menu cài đặt trang cá nhân.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Công nghệ số & AI"
     },
     {
       "id": "ti-050",
@@ -562,7 +619,8 @@ export const TECHNOLOGY_INTERNET_DECK = {
       "definition": "A process or set of rules to be followed in calculations or problem-solving operations by a computer.",
       "example": "The FSRS algorithm schedules spaced review intervals efficiently.",
       "exampleVi": "Thuật toán FSRS lên lịch khoảng thời gian ôn tập ngắt quãng rất hiệu quả.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Công nghệ số & AI"
     }
   ]
 };

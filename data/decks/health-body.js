@@ -1,6 +1,7 @@
 /**
  * DECK: Sức khỏe & Cơ thể
  * Giai đoạn 1 (A1 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const HEALTH_BODY_DECK = {
@@ -12,6 +13,13 @@ export const HEALTH_BODY_DECK = {
   "icon": "❤️",
   "color": "#ef4444",
   "level": "A1 - B1",
+  "subcategories": [
+    "Bộ phận cơ thể",
+    "Triệu chứng & Bệnh",
+    "Khám chữa bệnh",
+    "Thể lực & Dinh dưỡng",
+    "Sức khỏe tinh thần"
+  ],
   "targetCount": 300,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The physical structure of a person including the bones, flesh, and organs.",
       "example": "Regular exercise strengthens your entire body.",
       "exampleVi": "Tập thể dục thường xuyên giúp tăng cường toàn bộ cơ thể.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-002",
@@ -34,7 +43,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The upper part of the human body, containing the brain, mouth, and sense organs.",
       "example": "Wear a helmet to protect your head while cycling.",
       "exampleVi": "Đội mũ bảo hiểm để bảo vệ đầu khi đi xe đạp.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-003",
@@ -45,7 +55,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Each of a pair of globular organs in the head through which people see.",
       "example": "Rest your eyes after working at the computer for an hour.",
       "exampleVi": "Hãy cho mắt nghỉ ngơi sau khi làm việc máy tính một tiếng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-004",
@@ -56,7 +67,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The organ of hearing and balance in humans.",
       "example": "Listen closely with both ears.",
       "exampleVi": "Hãy lắng nghe thật kỹ bằng cả hai tai.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-005",
@@ -67,7 +79,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The part projecting above the mouth on the face of a person, containing the nostrils and used for breathing and smelling.",
       "example": "Breathe in deeply through your nose.",
       "exampleVi": "Hít thở thật sâu qua đường mũi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-006",
@@ -78,7 +91,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The opening in the face of a human through which food is taken and from which speech sounds are emitted.",
       "example": "Cover your mouth when you cough or sneeze.",
       "exampleVi": "Hãy che miệng khi bạn ho hoặc hắt hơi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-007",
@@ -89,7 +103,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Each of a set of hard, enamel-coated structures in the jaws of most vertebrates.",
       "example": "Brush your teeth twice every single day.",
       "exampleVi": "Đánh răng hai lần mỗi ngày.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-008",
@@ -100,7 +115,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The part of a person's body connecting the head to the rest of the body.",
       "example": "Gentle neck stretches relieve tension from sitting.",
       "exampleVi": "Các động tác giãn cổ nhẹ nhàng giúp xua tan căng thẳng do ngồi nhiều.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-009",
@@ -111,7 +127,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The upper joint of the human arm and the part of the body between this and the neck.",
       "example": "Drop your shoulders and take a slow breath.",
       "exampleVi": "Hạ lỏng vai xuống và thở chậm rãi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-010",
@@ -122,7 +139,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Each of the two upper limbs of the human body from the shoulder to the hand.",
       "example": "He crossed his arms and listened patiently.",
       "exampleVi": "Anh ấy khoanh tay và kiên nhẫn lắng nghe.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Bộ phận cơ thể"
     },
     {
       "id": "hb-011",
@@ -133,7 +151,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The end part of a person's arm beyond the wrist, including digits.",
       "example": "Wash your hands with soap before meals.",
       "exampleVi": "Rửa sạch bàn tay bằng xà phòng trước bữa ăn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-012",
@@ -144,7 +163,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Each of the four slender jointed parts attached to either hand.",
       "example": "She wears a gold ring on her ring finger.",
       "exampleVi": "Cô ấy đeo một chiếc nhẫn vàng trên ngón tay áp út.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-013",
@@ -155,7 +175,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The front surface of a person's body between the neck and the stomach.",
       "example": "He felt a warm sensation in his chest.",
       "exampleVi": "Anh ấy cảm nhận được một cảm giác ấm áp trong lồng ngực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-014",
@@ -166,7 +187,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The internal organ in which the major part of the digestion of food occurs.",
       "example": "Don't exercise vigorously on a full stomach.",
       "exampleVi": "Đừng tập thể dục mạnh khi bụng đang no.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-015",
@@ -177,7 +199,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The rear surface of the human body from the shoulders to the hips.",
       "example": "Keep your back straight when working at your desk.",
       "exampleVi": "Hãy giữ thẳng lưng khi làm việc tại bàn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-016",
@@ -188,7 +211,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Each of the limbs on which a person walks and stands.",
       "example": "Walking strengthens the muscles in your legs.",
       "exampleVi": "Đi bộ giúp tăng cường các cơ bắp ở chân.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-017",
@@ -199,7 +223,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The lower extremity of the leg below the ankle, on which a person stands or walks.",
       "example": "Wear comfortable shoes to protect your feet.",
       "exampleVi": "Mang giày thoải mái để bảo vệ bàn chân của bạn.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-018",
@@ -210,7 +235,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The joint between the thigh and the lower leg in humans.",
       "example": "He bent his knees to lift the heavy box safely.",
       "exampleVi": "Anh ấy gập đầu gối để nâng chiếc hộp nặng một cách an toàn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-019",
@@ -221,7 +247,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A band or bundle of fibrous tissue in a human body that has the ability to contract, producing movement.",
       "example": "Strength training helps build lean muscle.",
       "exampleVi": "Tập luyện sức mạnh giúp phát triển cơ bắp săn chắc.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-020",
@@ -232,7 +259,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Any of the pieces of hard, whitish tissue making up the skeleton in humans.",
       "example": "Calcium and vitamin D are vital for strong bones.",
       "exampleVi": "Canxi và vitamin D rất thiết yếu cho xương chắc khỏe.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Triệu chứng & Bệnh"
     },
     {
       "id": "hb-021",
@@ -243,7 +271,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "An organ of soft nervous tissue contained in the skull of vertebrates.",
       "example": "Learning new skills keeps the brain sharp.",
       "exampleVi": "Học những kỹ năng mới giúp não bộ luôn minh mẫn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-022",
@@ -254,7 +283,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A hollow muscular organ that pumps the blood through the circulatory system.",
       "example": "Cardio exercises are great for heart health.",
       "exampleVi": "Các bài tập cardio rất tuyệt vời cho sức khỏe tim mạch.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-023",
@@ -265,7 +295,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The red liquid that circulates in the arteries and veins of humans.",
       "example": "Regular checkups include a routine blood test.",
       "exampleVi": "Khám sức khỏe định kỳ bao gồm một xét nghiệm máu thông thường.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-024",
@@ -276,7 +307,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The thin layer of tissue forming the natural outer covering of the body of a person.",
       "example": "Drink plenty of water for glowing skin.",
       "exampleVi": "Uống nhiều nước để có một làn da rạng rỡ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-025",
@@ -287,7 +319,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "The state of being free from illness or injury.",
       "example": "Good health is the greatest wealth.",
       "exampleVi": "Sức khỏe tốt là tài sản quý giá nhất.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-026",
@@ -298,7 +331,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "In good health.",
       "example": "A healthy diet includes plenty of greens.",
       "exampleVi": "Một chế độ ăn lành mạnh bao gồm nhiều rau xanh.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-027",
@@ -309,7 +343,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "In good physical condition as a result of exercise and proper nutrition.",
       "example": "She runs five miles a day to stay fit.",
       "exampleVi": "Cô ấy chạy năm dặm mỗi ngày để giữ vóc dáng cân đối.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-028",
@@ -320,7 +355,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A disease or period of sickness affecting the body or mind.",
       "example": "He took time off work to recover from his illness.",
       "exampleVi": "Anh ấy đã xin nghỉ làm để bình phục sau cơn ốm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-029",
@@ -331,7 +367,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A disorder of structure or function in a human.",
       "example": "Vaccines protect people against dangerous diseases.",
       "exampleVi": "Vắc-xin bảo vệ con người chống lại các căn bệnh nguy hiểm.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-030",
@@ -342,7 +379,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Affected by physical or mental illness.",
       "example": "Stay home if you feel sick today.",
       "exampleVi": "Hãy ở nhà nếu hôm nay bạn cảm thấy ốm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Khám chữa bệnh"
     },
     {
       "id": "hb-031",
@@ -353,7 +391,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "An abnormally high body temperature.",
       "example": "He has a high fever and needs plenty of rest.",
       "exampleVi": "Anh ấy bị sốt cao và cần nghỉ ngơi thật nhiều.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-032",
@@ -364,7 +403,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A sudden, noisy expulsion of air from the lungs.",
       "example": "Drink warm honey water to soothe your cough.",
       "exampleVi": "Uống nước mật ong ấm để làm dịu cơn ho của bạn.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-033",
@@ -375,7 +415,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A continuous pain in the head.",
       "example": "Looking at the bright screen too long gave me a headache.",
       "exampleVi": "Nhìn vào màn hình sáng quá lâu khiến tôi bị đau đầu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-034",
@@ -386,7 +427,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A pain in a person's belly.",
       "example": "Eating too fast can cause a stomachache.",
       "exampleVi": "Ăn quá nhanh có thể gây đau bụng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-035",
@@ -397,7 +439,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A painful condition of the throat caused by inflammation.",
       "example": "Gargling with warm salt water eases a sore throat.",
       "exampleVi": "Súc họng bằng nước muối ấm giúp làm dịu cảm giác rát họng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-036",
@@ -408,7 +451,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "Physical suffering or discomfort caused by illness or injury.",
       "example": "Tell the doctor where you feel the pain.",
       "exampleVi": "Hãy nói cho bác sĩ biết bạn cảm thấy đau ở đâu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-037",
@@ -419,7 +463,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "To cause physical pain or injury to.",
       "example": "My shoulders hurt after lifting those heavy boxes.",
       "exampleVi": "Hai vai tôi bị đau sau khi bê những chiếc hộp nặng đó.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-038",
@@ -430,7 +475,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "To do physical harm or damage to someone.",
       "example": "He injured his ankle during the soccer match.",
       "exampleVi": "Anh ấy đã bị thương ở mắt cá chân trong trận đá bóng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-039",
@@ -441,7 +487,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "To lose blood from the body as a result of injury or illness.",
       "example": "Clean the small cut if it starts to bleed.",
       "exampleVi": "Rửa sạch vết xước nhỏ nếu nó bắt đầu chảy máu.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-040",
@@ -452,7 +499,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A person who is qualified to treat people who are ill.",
       "example": "You should see a doctor if symptoms persist.",
       "exampleVi": "Bạn nên đi khám bác sĩ nếu các triệu chứng kéo dài.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thể lực & Dinh dưỡng"
     },
     {
       "id": "hb-041",
@@ -463,7 +511,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A person trained to care for the sick or infirm.",
       "example": "The compassionate nurse checked my blood pressure.",
       "exampleVi": "Người y tá tận tụy đã đo huyết áp cho tôi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-042",
@@ -474,7 +523,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A person qualified to treat the diseases and conditions that affect the teeth and gums.",
       "example": "Visit the dentist twice a year for a routine cleaning.",
       "exampleVi": "Đi khám nha sĩ hai lần một năm để lấy cao răng định kỳ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-043",
@@ -485,7 +535,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "An institution providing medical and surgical treatment and nursing care for sick or injured people.",
       "example": "The ambulance rushed the patient to the hospital.",
       "exampleVi": "Xe cứu thương đã khẩn trương đưa bệnh nhân đến bệnh viện.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-044",
@@ -496,7 +547,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "An establishment or hospital department where outpatients are given medical treatment or advice.",
       "example": "The local health clinic is open five days a week.",
       "exampleVi": "Phòng khám y tế địa phương mở cửa năm ngày một tuần.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-045",
@@ -507,7 +559,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A store where medicinal drugs are dispensed and sold.",
       "example": "Pick up your prescription at the neighborhood pharmacy.",
       "exampleVi": "Lấy thuốc theo đơn của bạn tại hiệu thuốc gần nhà.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-046",
@@ -518,7 +571,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A compound or preparation used for the treatment or prevention of disease.",
       "example": "Take this medicine after eating meals.",
       "exampleVi": "Uống loại thuốc này sau khi ăn cơm.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-047",
@@ -529,7 +583,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A small round mass of solid medicine to be swallowed whole.",
       "example": "Take one vitamin pill every morning.",
       "exampleVi": "Uống một viên vitamin vào mỗi buổi sáng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-048",
@@ -540,7 +595,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "An instruction written by a medical practitioner that authorizes a patient to be provided a medicine.",
       "example": "The doctor wrote a prescription for antibiotics.",
       "exampleVi": "Bác sĩ đã kê một đơn thuốc kháng sinh.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-049",
@@ -551,7 +607,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "To return to a normal state of health, mind, or strength.",
       "example": "Get plenty of sleep to help your body recover quickly.",
       "exampleVi": "Ngủ thật nhiều để giúp cơ thể nhanh chóng hồi phục.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Sức khỏe tinh thần"
     },
     {
       "id": "hb-050",
@@ -562,7 +619,8 @@ export const HEALTH_BODY_DECK = {
       "definition": "A thorough medical examination, especially one conducted routinely.",
       "example": "An annual checkup helps catch health issues early.",
       "exampleVi": "Khám sức khỏe hàng năm giúp phát hiện sớm các vấn đề sức khỏe.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Sức khỏe tinh thần"
     }
   ]
 };

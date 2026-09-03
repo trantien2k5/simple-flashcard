@@ -1,6 +1,7 @@
 /**
  * DECK: Mua sắm & Tiền bạc
  * Giai đoạn 2 (A2 - B1) - 50 từ vựng cốt lõi
+ * Phủ 5 chủ đề con.
  */
 
 export const SHOPPING_MONEY_DECK = {
@@ -12,6 +13,13 @@ export const SHOPPING_MONEY_DECK = {
   "icon": "🛍️",
   "color": "#8b5cf6",
   "level": "A2 - B1",
+  "subcategories": [
+    "Địa điểm mua sắm",
+    "Tiền tệ & Thanh toán",
+    "Quần áo & Phụ kiện",
+    "Giao dịch & Giá cả",
+    "Thói quen tiêu dùng"
+  ],
   "targetCount": 250,
   "cards": [
     {
@@ -23,7 +31,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A building or part of a building where goods or services are sold.",
       "example": "Let's browse the vintage clothing shop downtown.",
       "exampleVi": "Hãy cùng ghé qua cửa hàng quần áo cổ điển ở trung tâm thành phố.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-002",
@@ -34,7 +43,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A large self-service store selling foods and household goods.",
       "example": "We do our weekly food shopping at the local supermarket.",
       "exampleVi": "Chúng tôi mua đồ ăn hằng tuần tại siêu thị địa phương.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-003",
@@ -45,7 +55,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A large enclosed shopping area from which traffic is excluded.",
       "example": "The shopping mall has a cinema and food court.",
       "exampleVi": "Trung tâm thương mại có cả rạp chiếu phim và khu ẩm thực.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-004",
@@ -56,7 +67,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A regular gathering of people for the purchase and sale of provisions.",
       "example": "Wake up early to buy fresh seafood at the morning market.",
       "exampleVi": "Dậy sớm để mua hải sản tươi ở chợ sáng nhé.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-005",
@@ -67,7 +79,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A person or organization that buys goods or services from a store.",
       "example": "Customer satisfaction is our highest priority.",
       "exampleVi": "Sự hài lòng của khách hàng là ưu tiên cao nhất của chúng tôi.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-006",
@@ -78,7 +91,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A person handling payments in a store or bank.",
       "example": "Pay the cashier at counter number three.",
       "exampleVi": "Thanh toán với thu ngân ở quầy số ba nhé.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-007",
@@ -89,7 +103,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A person whose job is selling things in a shop.",
       "example": "The salesperson helped me choose the right size.",
       "exampleVi": "Nhân viên bán hàng đã giúp tôi chọn đúng kích cỡ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-008",
@@ -100,7 +115,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "An article or substance that is manufactured or refined for sale.",
       "example": "This organic product is certified safe for sensitive skin.",
       "exampleVi": "Sản phẩm hữu cơ này được chứng nhận an toàn cho da nhạy cảm.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-009",
@@ -111,7 +127,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A type of product manufactured by a particular company under a particular name.",
       "example": "Which brand of athletic shoes do you prefer?",
       "exampleVi": "Bạn thích thương hiệu giày thể thao nào hơn?",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-010",
@@ -122,7 +139,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "The amount of money expected, required, or given in payment for something.",
       "example": "The price of organic vegetables has dropped this week.",
       "exampleVi": "Giá rau hữu cơ đã giảm trong tuần này.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Địa điểm mua sắm"
     },
     {
       "id": "sm-011",
@@ -133,7 +151,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Costing a lot of money.",
       "example": "Designer handbags are often very expensive.",
       "exampleVi": "Túi xách hàng hiệu thường rất đắt tiền.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-012",
@@ -144,7 +163,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Costing little money or less than expected.",
       "example": "Street food here is tasty and surprisingly cheap.",
       "exampleVi": "Ẩm thực đường phố ở đây ngon và rẻ đến bất ngờ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-013",
@@ -155,7 +175,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Inexpensive; reasonably priced.",
       "example": "The brand produces stylish yet affordable clothes.",
       "exampleVi": "Thương hiệu này sản xuất quần áo thời trang nhưng giá cả rất phải chăng.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-014",
@@ -166,7 +187,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Fair and sensible; not excessive.",
       "example": "The hotel offers comfortable rooms at reasonable rates.",
       "exampleVi": "Khách sạn cung cấp phòng ở tiện nghi với mức giá hợp lý.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-015",
@@ -177,7 +199,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To obtain in exchange for payment.",
       "example": "I need to buy a new winter jacket.",
       "exampleVi": "Tôi cần mua một chiếc áo khoác mùa đông mới.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-016",
@@ -188,7 +211,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To give or hand over something in exchange for money.",
       "example": "They sell fresh baked bread every morning.",
       "exampleVi": "Họ bán bánh mì mới nướng vào mỗi buổi sáng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-017",
@@ -199,7 +223,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To give money for goods, services, or debt.",
       "example": "You can pay in cash or via credit card.",
       "exampleVi": "Bạn có thể thanh toán bằng tiền mặt hoặc qua thẻ tín dụng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-018",
@@ -210,7 +235,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To pay out money in buying or hiring goods or services.",
       "example": "Try not to spend more than you earn each month.",
       "exampleVi": "Cố gắng đừng tiêu nhiều hơn số tiền bạn kiếm được mỗi tháng.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-019",
@@ -221,7 +247,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To keep money for future use rather than spending it immediately.",
       "example": "Cook at home to save money for travel.",
       "exampleVi": "Nấu ăn tại nhà để tiết kiệm tiền đi du lịch.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-020",
@@ -232,7 +259,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To have enough money to pay for something.",
       "example": "We can easily afford this apartment rental.",
       "exampleVi": "Chúng tôi hoàn toàn đủ khả năng trả tiền thuê căn hộ này.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Tiền tệ & Thanh toán"
     },
     {
       "id": "sm-021",
@@ -243,7 +271,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A deduction from the usual cost of something.",
       "example": "Students get a 15% discount on textbooks.",
       "exampleVi": "Học sinh sinh viên được giảm giá 15% cho sách giáo khoa.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-022",
@@ -254,7 +283,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Activity that supports or encourages the sale of a product.",
       "example": "Take advantage of the weekend buy-one-get-one promotion.",
       "exampleVi": "Hãy tận dụng chương trình khuyến mãi mua một tặng một vào cuối tuần.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-023",
@@ -265,7 +295,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A repayment of a sum of money to a dissatisfied customer.",
       "example": "Return the damaged item to receive a full refund.",
       "exampleVi": "Trả lại món đồ bị hỏng để nhận lại toàn bộ tiền hoàn.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-024",
@@ -276,7 +307,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To give something and receive something of the same kind in return.",
       "example": "Can I exchange this shirt for a larger size?",
       "exampleVi": "Tôi có thể đổi chiếc áo này lấy kích cỡ lớn hơn được không?",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-025",
@@ -287,7 +319,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A printed statement acknowledging that something has been paid for.",
       "example": "Keep your receipt in case you want an exchange.",
       "exampleVi": "Giữ hóa đơn phòng khi bạn muốn đổi hàng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-026",
@@ -298,7 +331,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A wheeled cart supplied by a store for customers to collect merchandise.",
       "example": "Fill the shopping cart with fresh produce.",
       "exampleVi": "Chất đầy xe đẩy mua sắm với các nông sản tươi sạch.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-027",
@@ -309,7 +343,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A container used for holding goods in a store.",
       "example": "Grab a shopping basket if you only need a few items.",
       "exampleVi": "Hãy lấy một chiếc giỏ xách nếu bạn chỉ cần mua vài món đồ.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-028",
@@ -320,7 +355,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "The place where goods are paid for in a store.",
       "example": "Head to the checkout when you are finished shopping.",
       "exampleVi": "Hãy đi ra quầy tính tiền khi bạn đã mua sắm xong.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-029",
@@ -331,7 +367,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Money in coins or notes.",
       "example": "Do you have enough cash to pay for parking?",
       "exampleVi": "Bạn có đủ tiền mặt để trả tiền gửi xe không?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-030",
@@ -342,7 +379,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A flat, round piece of metal with an official stamp, used as money.",
       "example": "Insert a coin into the vending machine.",
       "exampleVi": "Bỏ một đồng xu vào máy bán hàng tự động.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Quần áo & Phụ kiện"
     },
     {
       "id": "sm-031",
@@ -353,7 +391,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A plastic card issued by a bank allowing the holder to purchase goods on credit.",
       "example": "Tap your credit card on the payment terminal.",
       "exampleVi": "Chạm thẻ tín dụng của bạn vào thiết bị thanh toán.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-032",
@@ -364,7 +403,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A pocket-sized flat folding case for holding money and plastic cards.",
       "example": "I left my wallet on the kitchen table.",
       "exampleVi": "Tôi đã để quên ví tiền trên bàn bếp.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-033",
@@ -375,7 +415,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A small pouch of leather or plastic used for carrying money and personal items.",
       "example": "She kept her lip balm and keys inside her purse.",
       "exampleVi": "Cô ấy để son dưỡng và chìa khóa bên trong túi xách.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-034",
@@ -386,7 +427,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "An estimate of income and expenditure for a set period of time.",
       "example": "Create a monthly budget to control your spending.",
       "exampleVi": "Lập một ngân sách chi tiêu hằng tháng để kiểm soát việc tiêu tiền.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-035",
@@ -397,7 +439,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Money received, especially on a regular basis, for work or through investments.",
       "example": "Invest a portion of your monthly income for the future.",
       "exampleVi": "Hãy đầu tư một phần thu nhập hằng tháng cho tương lai.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-036",
@@ -408,7 +451,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "The cost required for something; the money spent on something.",
       "example": "Rent and food are my biggest living expenses.",
       "exampleVi": "Tiền thuê nhà và đồ ăn là những khoản chi tiêu sinh hoạt lớn nhất của tôi.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-037",
@@ -419,7 +463,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Something, typically money, that is owed or due.",
       "example": "Paying off high-interest debt is the first step to financial freedom.",
       "exampleVi": "Trả hết các khoản nợ lãi suất cao là bước đầu tiên để tự do tài chính.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-038",
@@ -430,7 +475,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To take and use money or items that must be returned.",
       "example": "Can I borrow fifty dollars until Friday?",
       "exampleVi": "Tôi có thể mượn năm mươi đô la cho đến thứ Sáu được không?",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-039",
@@ -441,7 +487,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To grant to someone the use of money on the understanding that it will be returned.",
       "example": "The bank agreed to lend him funds for the startup.",
       "exampleVi": "Ngân hàng đã đồng ý cho anh ấy vay vốn để khởi nghiệp.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-040",
@@ -452,7 +499,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To move money from one account to another.",
       "example": "I will transfer the money to your bank account immediately.",
       "exampleVi": "Tôi sẽ chuyển tiền vào tài khoản ngân hàng của bạn ngay lập tức.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Giao dịch & Giá cả"
     },
     {
       "id": "sm-041",
@@ -463,7 +511,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A financial establishment that invests money deposited by customers, pays it out when required, and makes loans.",
       "example": "The bank branch is located on Main Street.",
       "exampleVi": "Chi nhánh ngân hàng nằm trên phố Chính.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-042",
@@ -474,7 +523,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "An automated teller machine allowing customers to withdraw cash.",
       "example": "I need to stop by an ATM to withdraw some cash.",
       "exampleVi": "Tôi cần ghé qua một cây ATM để rút ít tiền mặt.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-043",
@@ -485,7 +535,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A system of money in common use within a country.",
       "example": "Exchange your currency before traveling abroad.",
       "exampleVi": "Hãy đổi tiền tệ của bạn trước khi đi du lịch nước ngoài.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-044",
@@ -496,7 +547,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "To put on clothes to test their fit and appearance.",
       "example": "You can try on the jeans in the fitting room.",
       "exampleVi": "Bạn có thể thử chiếc quần bò trong phòng thay đồ.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-045",
@@ -507,7 +559,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A room in a shop where you can try on clothes.",
       "example": "The fitting rooms are located at the back of the store.",
       "exampleVi": "Các phòng thử đồ nằm ở phía sau cửa hàng.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-046",
@@ -518,7 +571,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "How large or small a person or thing is.",
       "example": "Do you have this dress in a medium size?",
       "exampleVi": "Bạn có chiếc váy này ở kích cỡ vừa (M) không?",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-047",
@@ -529,7 +583,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "The state of great comfort and extravagant living.",
       "example": "The luxury watch comes with a lifetime guarantee.",
       "exampleVi": "Chiếc đồng hồ xa xỉ đi kèm với bảo hành trọn đời.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-048",
@@ -540,7 +595,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A thing bought or offered for sale more cheaply than is usual.",
       "example": "At ten dollars, this leather jacket was a real bargain.",
       "exampleVi": "Với giá mười đô, chiếc áo khoác da này đúng là một món hời.",
-      "level": "B1"
+      "level": "B1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-049",
@@ -551,7 +607,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "Purchasing products over the internet.",
       "example": "Online shopping saves time with doorstep delivery.",
       "exampleVi": "Mua sắm trực tuyến giúp tiết kiệm thời gian nhờ giao hàng tận cửa.",
-      "level": "A1"
+      "level": "A1",
+      "subtopic": "Thói quen tiêu dùng"
     },
     {
       "id": "sm-050",
@@ -562,7 +619,8 @@ export const SHOPPING_MONEY_DECK = {
       "definition": "A small printed piece of paper or code that entitles the holder to a discount.",
       "example": "Apply this voucher code at checkout to get 20% off.",
       "exampleVi": "Áp dụng mã giảm giá này khi thanh toán để được giảm 20%.",
-      "level": "A2"
+      "level": "A2",
+      "subtopic": "Thói quen tiêu dùng"
     }
   ]
 };
