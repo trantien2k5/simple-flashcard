@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Flashcard English Pro - Spaced Repetition FSRS-6</title>
+  <meta name="description" content="Ứng dụng học từ vựng tiếng Anh theo phương pháp lặp lại ngắt quãng FSRS-6 tối ưu trên di động.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <div id="app-container">
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="brand-wrapper">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h1>Flashcard Pro</h1>
+        </div>
+        <span class="brand-badge">FSRS 6</span>
+      </div>
+
+      <div class="header-actions">
+        <div class="streak-pill" id="header-streak">
+          <span>🔥</span>
+          <span id="streak-count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Tab Views Container -->
+    <main class="tab-content-area">
+
+      <!-- ================= TAB 1: TRANG CHỦ ================= -->
+      <section id="tab-home" class="tab-pane active">
+        <div class="greeting-section">
+          <h2 class="greeting-title">Chào bạn! 👋</h2>
+          <p class="greeting-subtitle">Sẵn sàng củng cố trí nhớ với thuật toán FSRS-6 hôm nay?</p>
+        </div>
+
+        <!-- Quick Study Hero Card -->
+        <div class="study-hero-card">
+          <div class="hero-stats-row">
+            <div class="hero-stat-item">
+              <span class="hero-stat-value due" id="home-due-count">0</span>
+              <span class="hero-stat-label">Cần ôn</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value new" id="home-new-count">0</span>
+              <span class="hero-stat-label">Từ mới</span>
+            </div>
+            <div class="hero-stat-item">
+              <span class="hero-stat-value learned" id="home-learned-count">0</span>
+              <span class="hero-stat-label">Đã tích lũy</span>
+            </div>
+          </div>
+
+          <button id="btn-start-daily-study" class="btn-primary-hero animate-pulse-glow">
+            <span>🚀 Bắt đầu học ngay</span>
+          </button>
+        </div>
+
+        <!-- Quick Summary Metrics (Streak & Retention) -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-header">
+              <span>Streak</span>
+              <span>🔥</span>
+            </div>
+            <div class="metric-number" id="home-streak-count">1 ngày</div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-header">
+              <span>Retention</span>
+              <span>🎯</span>
+            </div>
+            <div class="metric-number" id="home-retention-rate">12%</div>
+          </div>
+        </div>
+
+        <!-- Popular Decks Quick Access -->
+        <div class="section-header">
+          <h3 class="section-title">Bộ từ vựng nổi bật</h3>
+        </div>
+        <div class="decks-list" id="home-popular-decks">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+
+      <!-- ================= TAB 2: CHỦ ĐỀ (DECKS) ================= -->
+      <section id="tab-decks" class="tab-pane">
+        <div class="section-header">
+          <h2 class="section-title">Chủ đề từ vựng</h2>
+          <button id="btn-open-create-deck" class="badge-tag level" style="cursor: pointer; border: none; padding: 6px 12px;">+ Tạo bộ thẻ</button>
+        </div>
+
+        <div class="search-box-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="deck-search-input" class="search-input" placeholder="Tìm từ vựng, phiên âm hoặc định nghĩa...">
+        </div>
+
+        <!-- Category Filter Pills theo 3 Giai đoạn học -->
+        <div class="category-pills-row" id="category-pills-filter" style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 12px; margin-bottom: 10px; scrollbar-width: none;">
+          <button class="badge-tag level filter-pill active" data-cat="all" style="cursor: pointer; border: none; padding: 6px 14px; border-radius: var(--radius-full); white-space: nowrap;">Tất cả (15)</button>
+          <button class="badge-tag filter-pill" data-cat="Phase1" style="cursor: pointer; border: none; padding: 6px 14px; border-radius: var(--radius-full); white-space: nowrap;">🌱 Giai đoạn 1: Nền tảng (6)</button>
+          <button class="badge-tag filter-pill" data-cat="Phase2" style="cursor: pointer; border: none; padding: 6px 14px; border-radius: var(--radius-full); white-space: nowrap;">🌿 Giai đoạn 2: Độc lập (5)</button>
+          <button class="badge-tag filter-pill" data-cat="Phase3" style="cursor: pointer; border: none; padding: 6px 14px; border-radius: var(--radius-full); white-space: nowrap;">🌳 Giai đoạn 3: Mở rộng (4)</button>
+        </div>
+
+        <div class="decks-list" id="all-decks-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </section>
+
+      <!-- ================= TAB 3: THỐNG KÊ (STATS) ================= -->
+      <section id="tab-stats" class="tab-pane">
+        <div class="section-header">
+          <h2 class="section-title">Thống kê FSRS-6</h2>
+        </div>
+
+        <div class="stats-card-group">
+          <!-- Weekly Review Chart -->
+          <div class="stats-card">
+            <div class="stats-card-title">
+              <span>📊 Lượt ôn tập 7 ngày qua</span>
+            </div>
+            <div class="activity-bar-chart" id="weekly-chart">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- Memory Stability Distribution -->
+          <div class="stats-card">
+            <div class="stats-card-title">
+              <span>🧠 Độ bền trí nhớ (Stability)</span>
+            </div>
+            <div class="matrix-row" id="stability-matrix">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- 7-Day Forecast -->
+          <div class="stats-card">
+            <div class="stats-card-title">
+              <span>📅 Dự báo ôn tập 7 ngày tới</span>
+            </div>
+            <div class="matrix-row" id="forecast-list">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= TAB 4: PROFILE & CÀI ĐẶT ================= -->
+      <section id="tab-profile" class="tab-pane">
+        <div class="profile-user-card">
+          <div class="user-avatar-circle">🎓</div>
+          <div>
+            <h2 style="font-size: 1.15rem; font-weight: 700;">Học viên Tiếng Anh</h2>
+            <p style="color: var(--text-secondary); font-size: 0.8rem;" id="profile-status-desc">Cấp độ FSRS: Đang phát triển trí nhớ dài hạn</p>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h3 class="section-title">Cài đặt FSRS-6</h3>
+        </div>
+
+        <div class="settings-group">
+          <div class="setting-row">
+            <div class="setting-info">
+              <span class="setting-title">Tỉ lệ nhớ mục tiêu (Target Retention)</span>
+              <span class="setting-desc" id="retention-slider-label">Mục tiêu: 90%</span>
+            </div>
+            <input type="range" id="setting-retention" class="range-slider" min="0.80" max="0.97" step="0.01" value="0.90">
+          </div>
+
+          <div class="setting-row">
+            <div class="setting-info">
+              <span class="setting-title">Số từ mới mỗi ngày</span>
+              <span class="setting-desc" id="new-limit-label">15 từ/ngày</span>
+            </div>
+            <input type="range" id="setting-new-limit" class="range-slider" min="5" max="50" step="5" value="15">
+          </div>
+
+          <div class="setting-row">
+            <div class="setting-info">
+              <span class="setting-title">Giới hạn ôn tập mỗi ngày</span>
+              <span class="setting-desc" id="review-limit-label">50 thẻ/ngày</span>
+            </div>
+            <input type="range" id="setting-review-limit" class="range-slider" min="10" max="150" step="10" value="50">
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h3 class="section-title">Giao diện & Âm thanh</h3>
+        </div>
+
+        <div class="settings-group">
+          <div class="setting-row">
+            <div class="setting-info">
+              <span class="setting-title">Tự động phát âm khi lật thẻ</span>
+              <span class="setting-desc">Sử dụng giọng đọc chuẩn Web Speech API</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="setting-auto-speech" checked>
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="setting-row">
+            <div class="setting-info">
+              <span class="setting-title">Chế độ nền tối (Dark Mode)</span>
+              <span class="setting-desc">Bảo vệ mắt khi học ban đêm</span>
+            </div>
+            <label class="switch">
+              <input type="checkbox" id="setting-dark-theme">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h3 class="section-title">Sao lưu & Quản lý dữ liệu</h3>
+        </div>
+
+        <div class="settings-group">
+          <div class="setting-row" style="cursor: pointer;" id="btn-export-data">
+            <div class="setting-info">
+              <span class="setting-title">📤 Xuất dữ liệu tiến trình (Export JSON)</span>
+              <span class="setting-desc">Lưu file backup các thẻ đã học</span>
+            </div>
+          </div>
+
+          <div class="setting-row" style="cursor: pointer;" id="btn-import-data-trigger">
+            <div class="setting-info">
+              <span class="setting-title">📥 Nhập dữ liệu sao lưu (Import JSON)</span>
+              <span class="setting-desc">Khôi phục tiến trình học FSRS từ file</span>
+            </div>
+            <input type="file" id="input-import-file" accept=".json" style="display: none;">
+          </div>
+
+          <div class="setting-row" style="cursor: pointer;" id="btn-reset-data">
+            <div class="setting-info">
+              <span class="setting-title" style="color: var(--fsrs-again);">🗑️ Xóa toàn bộ tiến trình học</span>
+              <span class="setting-desc">Đặt lại trạng thái thẻ ban đầu</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ================= MOBILE BOTTOM NAVIGATION BAR ================= -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-tab="tab-home">
+        <span class="nav-icon">🏠</span>
+        <span class="nav-label">Trang chủ</span>
+        <span class="nav-badge" id="nav-due-badge" style="display: none;">0</span>
+      </button>
+
+      <button class="nav-item" data-tab="tab-decks">
+        <span class="nav-icon">📚</span>
+        <span class="nav-label">Chủ đề</span>
+      </button>
+
+      <button class="nav-item" data-tab="tab-stats">
+        <span class="nav-icon">📈</span>
+        <span class="nav-label">Thống kê</span>
+      </button>
+
+      <button class="nav-item" data-tab="tab-profile">
+        <span class="nav-icon">👤</span>
+        <span class="nav-label">Profile</span>
+      </button>
+    </nav>
+
+    <!-- ================= FLASHCARD STUDY OVERLAY ================= -->
+    <div id="study-overlay" class="study-overlay">
+      <div class="study-top-bar">
+        <button id="btn-study-close" class="btn-icon-close" title="Đóng phiên học">✕</button>
+        <div class="study-progress-track-wrapper">
+          <div class="study-progress-track">
+            <div id="study-progress-bar-fill" class="study-progress-bar-fill" style="width: 10%;"></div>
+          </div>
+        </div>
+        <div class="study-progress-counter" id="study-progress-text">1 / 8</div>
+      </div>
+
+      <!-- Centered Study Body (Card + Controls) -->
+      <div class="study-body-wrapper">
+        <div class="flashcard-stage">
+          <div id="flashcard-element" class="flashcard-3d-wrapper">
+            <!-- Front Face -->
+            <div class="flashcard-face face-front">
+              <div class="card-top-badges">
+                <span class="card-pos-tag" id="card-pos-badge">ADVERB</span>
+                <span class="card-cefr-tag" id="card-cefr-badge">A2</span>
+              </div>
+              <div class="card-center-content">
+                <h2 class="card-word-title" id="card-front-word">Ubiquitous</h2>
+                <div class="card-phonetic-box">
+                  <span id="card-front-phonetic">/juːˈbɪk.wə.təs/</span>
+                  <button class="btn-tts-audio" id="btn-audio-front" title="Phát âm">🔊</button>
+                </div>
+              </div>
+              <div class="card-footer-spacer"></div>
+            </div>
+
+            <!-- Back Face -->
+            <div class="flashcard-face face-back">
+              <div class="card-top-badges">
+                <span class="card-pos-tag" id="card-pos-badge-back">ADVERB</span>
+                <span class="card-cefr-tag" id="card-cefr-badge-back">A2</span>
+              </div>
+              <div class="card-center-content">
+                <div class="card-meaning-vi" id="card-back-meaning">Có mặt ở khắp mọi nơi</div>
+                <div class="card-definition-en" id="card-back-definition">Present, appearing, or found everywhere.</div>
+                <div class="card-example-box">
+                  <div class="card-example-en" id="card-back-example">Smartphones have become ubiquitous in modern society.</div>
+                  <div class="card-example-vi" id="card-back-example-vi">Điện thoại thông minh đã trở nên phổ biến ở khắp mọi nơi.</div>
+                </div>
+              </div>
+              <div class="card-footer-spacer"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls Block -->
+        <div class="study-bottom-controls" id="study-controls-wrapper">
+          <div id="fsrs-buttons-container" class="fsrs-buttons-grid">
+            <button class="btn-fsrs-rating again" data-rating="1">
+              <span class="fsrs-rating-title">Quên</span>
+              <span class="fsrs-badge-interval" id="interval-again">< 1m</span>
+            </button>
+
+            <button class="btn-fsrs-rating hard" data-rating="2">
+              <span class="fsrs-rating-title">Khó</span>
+              <span class="fsrs-badge-interval" id="interval-hard">10m</span>
+            </button>
+
+            <button class="btn-fsrs-rating good" data-rating="3">
+              <span class="fsrs-rating-title">Nhớ</span>
+              <span class="fsrs-badge-interval" id="interval-good">1d</span>
+            </button>
+
+            <button class="btn-fsrs-rating easy" data-rating="4">
+              <span class="fsrs-rating-title">Dễ</span>
+              <span class="fsrs-badge-interval" id="interval-easy">4d</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: XEM TRƯỚC DANH SÁCH BỘ THẺ ================= -->
+    <div id="deck-preview-modal" class="modal-backdrop">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3 id="modal-deck-title" style="font-size: 1.1rem; font-weight: 700;">Danh sách từ vựng</h3>
+          <button class="btn-icon-close" id="btn-close-preview-modal">✕</button>
+        </div>
+        <div class="modal-body" id="modal-deck-cards-list" style="display: flex; flex-direction: column; gap: 10px;">
+          <!-- Card items rendered dynamically -->
+        </div>
+        <div class="modal-footer">
+          <button class="btn-primary-hero" id="btn-study-this-deck" style="width: auto; padding: 10px 20px;">Học bộ này ngay 🚀</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: TẠO BỘ TỪ TÙY CHỈNH ================= -->
+    <div id="create-deck-modal" class="modal-backdrop">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <h3 style="font-size: 1.1rem; font-weight: 700;">Tạo bộ thẻ tùy chỉnh</h3>
+          <button class="btn-icon-close" id="btn-close-create-modal">✕</button>
+        </div>
+        <div class="modal-body" style="display: flex; flex-direction: column; gap: 14px;">
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 600; margin-bottom: 4px; display: block;">Tên bộ thẻ</label>
+            <input type="text" id="custom-deck-name" class="search-input" style="padding-left: 12px;" placeholder="Vd: 3000 từ vựng Oxford...">
+          </div>
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 600; margin-bottom: 4px; display: block;">Mô tả ngắn</label>
+            <input type="text" id="custom-deck-desc" class="search-input" style="padding-left: 12px;" placeholder="Vd: Bộ từ vựng cần thiết hàng ngày">
+          </div>
+          <div>
+            <label style="font-size: 0.8rem; font-weight: 600; margin-bottom: 4px; display: block;">Danh sách từ (Mỗi dòng: Từ | Nghĩa | Phiên âm)</label>
+            <textarea id="custom-deck-words" class="search-input" style="padding-left: 12px; height: 120px; resize: none; font-family: var(--font-mono); font-size: 0.82rem;" placeholder="Apple | Quả táo | /ˈæp.əl/&#10;Book | Quyển sách | /bʊk/"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-primary-hero" id="btn-save-custom-deck" style="width: auto; padding: 10px 20px;">Lưu bộ thẻ</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: TỔNG KẾT PHIÊN HỌC FLASHCARD ================= -->
+    <div id="study-summary-modal" class="modal-backdrop">
+      <div class="modal-dialog study-summary-dialog">
+        <div class="summary-hero-badge">
+          <span class="summary-trophy-icon">🏆</span>
+        </div>
+        <h3 class="summary-title" id="summary-modal-title">Xuất sắc! Đã hoàn thành</h3>
+        <p class="summary-subtitle" id="summary-modal-subtitle">Trí nhớ của bạn đã được củng cố với thuật toán FSRS-6</p>
+
+        <div class="summary-stats-grid">
+          <div class="summary-stat-box total">
+            <span class="summary-stat-num" id="sum-stat-total">0</span>
+            <span class="summary-stat-lbl">Thẻ đã học</span>
+          </div>
+          <div class="summary-stat-box retention">
+            <span class="summary-stat-num" id="sum-stat-retention">100%</span>
+            <span class="summary-stat-lbl">Tỉ lệ nhớ</span>
+          </div>
+        </div>
+
+        <div class="summary-fsrs-breakdown">
+          <div class="summary-fsrs-pill again">
+            <span class="fsrs-pill-dot"></span>
+            <span>Quên: <strong id="sum-stat-again">0</strong></span>
+          </div>
+          <div class="summary-fsrs-pill hard">
+            <span class="fsrs-pill-dot"></span>
+            <span>Khó: <strong id="sum-stat-hard">0</strong></span>
+          </div>
+          <div class="summary-fsrs-pill good">
+            <span class="fsrs-pill-dot"></span>
+            <span>Nhớ: <strong id="sum-stat-good">0</strong></span>
+          </div>
+          <div class="summary-fsrs-pill easy">
+            <span class="fsrs-pill-dot"></span>
+            <span>Dễ: <strong id="sum-stat-easy">0</strong></span>
+          </div>
+        </div>
+
+        <div class="summary-actions">
+          <button class="btn-primary-hero" id="btn-summary-home" style="width: 100%;">Về trang chủ 🏠</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: CUSTOM CONFIRMATION DIALOG ================= -->
+    <div id="app-confirm-modal" class="modal-backdrop">
+      <div class="modal-dialog confirm-dialog">
+        <div class="confirm-icon-wrapper" id="confirm-icon-box">
+          <span id="confirm-icon">⚠️</span>
+        </div>
+        <h3 class="confirm-title" id="confirm-title">Xác nhận</h3>
+        <p class="confirm-message" id="confirm-message">Bạn có chắc chắn muốn thực hiện hành động này?</p>
+        <div class="confirm-actions">
+          <button class="btn-confirm-secondary" id="btn-confirm-cancel">Hủy</button>
+          <button class="btn-confirm-primary" id="btn-confirm-ok">Đồng ý</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notifications Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+  </div>
+
+  <!-- App Core Module Script -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
